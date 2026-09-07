@@ -1,0 +1,271 @@
+/* =====================
+   Main Banner Swiper
+===================== */
+.main-banner-swiper {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-banner-swiper .banner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pc-bg { display: block; }
+.mobile-bg { display: none; }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: left;
+  width: 100%;
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.theme-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: var(--text-lg);
+}
+
+.label {
+  font-size: var(--text-lg);
+  border: 1px solid white;
+  padding: 4px 16px;
+  border-radius: 999px;
+  font-weight: 400;
+}
+
+.theme {
+  font-weight: 400;
+}
+
+.item {
+  font-size: var(--title-sectionKorea);
+  font-weight: 600;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+
+.swiper-pagination {
+  max-width: 1640px !important;
+  width: 100% !important;
+  position: absolute;
+  bottom: 120px !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  padding: 0 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 0.4;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .pc-bg { display: none; }
+  .mobile-bg { display: block; }
+
+  .main-banner-swiper,
+  .main-banner-swiper .banner {
+    height: 500px;
+  }
+
+  .content {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .theme-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    padding: 0 20px;
+    justify-content: center;
+    bottom: 60px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    width: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .label,
+  .theme {
+    font-size: var(--text-sm);
+  }
+
+  .item {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+}
+
+/* =====================
+   Swiper Buttons (공통)
+===================== */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff50;
+  border-radius: 999px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  padding: 12px 12px 12px 10px;
+}
+.swiper-button-next {
+  padding: 12px 10px 12px 12px;
+}
+
+.global-button-hidden,
+.people-button-hidden,
+.data-button-hidden {
+  display: none !important;
+}
+
+@media (max-width: 1440px) {
+  .global-button-hidden,
+  .people-button-hidden,
+  .data-button-hidden {
+    display: flex !important;
+  }
+}
+
+.swiper-button-prev > img,
+.swiper-button-next > img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.swiper-button-next > img {
+  transform: rotate(-180deg);
+}
+
+.button-hidden {
+  display: none !important;
+}
+
+@media (max-width: 1440px) {
+  .button-hidden {
+    display: flex !important;
+  }
+}
+
+.spotlight-button-prev,
+.global-button-prev,
+.people-button-prev,
+.trend-button-prev,
+.data-button-prev {
+  left: 16px !important;
+}
+
+.spotlight-button-next,
+.global-button-next,
+.people-button-next,
+.trend-button-next,
+.data-button-next {
+  right: 16px !important;
+}
+
+.swiper-navigation-icon {
+  display: none;
+}
+
+/* =====================
+   Section Swipers & Grids
+===================== */
+.spotlight-swiper,
+.global-swiper,
+.people-swiper,
+.trend-swiper,
+.data-swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-swiper .swiper-slide,
+.global-swiper .swiper-slide,
+.people-swiper .swiper-slide,
+.trend-swiper .swiper-slide,
+.data-swiper .swiper-slide {
+  width: calc((100% - 32px) / 3);
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .spotlight-swiper,
+  .global-swiper,
+  .people-swiper,
+  .trend-swiper,
+  .data-swiper {
+    display: block !important;
+  }
+
+  .spotlight-swiper .swiper-wrapper,
+  .global-swiper .swiper-wrapper,
+  .people-swiper .swiper-wrapper,
+  .trend-swiper .swiper-wrapper,
+  .data-swiper .swiper-wrapper {
+    display: flex !important;
+  }
+}

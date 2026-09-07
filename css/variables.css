@@ -1,0 +1,89 @@
+:root {
+  /* Primary */
+  --primary-100: #FFF1EF;
+  --primary-200: #FFD9D4;
+  --primary-300: #FFBBB3;
+  --primary-400: #F8958B;
+  --primary-500: #EF6F6C;
+  --primary-600: #D95C5E;
+  --primary-700: #B34755;
+
+  /* Grayscale */
+  --gray-100: #f8f9fa;
+  --gray-200: #f2f4f5;
+  --gray-300: #e0e0e0;
+  --gray-400: #c7c7c7;
+  --gray-500: #999999;
+  --gray-600: #767676;
+  --gray-700: #222222;
+
+  /* Accent */
+  --accent-100: #f6f3ff;
+  --accent-200: #ede7ff;
+  --accent-300: #d8ccff;
+  --accent-400: #bfaaff;
+  --accent-500: #a78bfa;
+  --accent-600: #8b5cf6;
+  --accent-700: #6d3fe0;
+
+  /* Point */
+  --point-100: #fff1f1;
+  --point-200: #ffe1e1;
+  --point-300: #ffc4c4;
+  --point-400: #ffa0a0;
+  --point-500: #ff7a7a;
+  --point-600: #f05252;
+  --point-700: #c83e3e;
+
+  /* font size */
+  --title-important: 40px;
+  --title-sectionKorea: 36px;
+  --title-Manuscript: 32px;
+  --title-sectionEnglish: 28px;
+  --title-thumnail: 24px;
+
+  --text-lead: 22px;
+  --text-lg: 20px;
+  --text-md: 16px;
+  --text-sm: 14px;
+  --text-table: 16px;
+
+  /* spacing */
+  --content-spacing: 120px;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --title-important: 36px;
+    --title-sectionKorea: 32px;
+    --title-Manuscript: 28px;
+    --title-sectionEnglish: 24px;
+    --title-thumnail: 20px;
+
+    --text-lead: 20px;
+    --text-lg: 18px;
+    --text-md: 16px;
+    --text-sm: 14px;
+    --text-table: 14px;
+
+    --content-spacing: 120px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --title-important: 32px;
+    --title-sectionKorea: 28px;
+    --title-Manuscript: 24px;
+    --title-sectionEnglish: 20px;
+    --title-thumnail: 16px;
+
+    --text-lead: 18px;
+    --text-lg: 16px;
+    --text-md: 16px;
+    --text-sm: 14px;
+    --text-table: 12px;
+
+    --content-spacing: 80px;
+  }
+}
