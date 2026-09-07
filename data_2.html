@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="방송영상·OTT 트렌드 2026 Vol.2" />
+  <meta property="og:image" content="./img/assets/meta.png">
+  <title>방송영상 · OTT 트렌드</title>
+
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/detail.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GH6ZRLY8VY');
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="./index.html" class="logo-wrap">
+        <img src="./img/assets/logo-white.png" alt="로고" class="logo" />
+      </a>
+
+      <div class="nav-right">
+        <div class="nav">
+          <a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
+          <a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
+          <a href="./index.html#people" class="nav-item">피플 인사이트</a>
+          <a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
+          <a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
+        </div>
+
+
+        <button type="button" id="menu-toggle" class="header-vol-info" aria-label="메뉴 열기">
+          <span class="vol-text">2026 Vol.2 (7월호)</span>
+
+          <span class="hamburger" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Fullscreen Mobile Modal -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="menu-header">
+        <p class="menu-title">메뉴</p>
+        <div class="menu-right">
+          <div class="vol-info">2026 Vol.2 (7월호)</div>
+          <button type="button" id="menu-close">
+            <img src="./img/assets/close.png" alt="닫기" class="close-btn" />
+          </button>
+        </div>
+      </div>
+      <div id="menu-content" class="menu-content"></div>
+    </div>
+  </header>
+
+  <!-- Detail -->
+  <div>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <!-- 배너 영역 -->
+    <div class="spotlight-banner" style="background-image: url('./img/manuscript12/thum.png');">
+      <div class="banner-overlay"></div>
+      <div class="banner-inner">
+        <div class="banner-meta">
+          <p class="banner-number">데이터 포인트 2</p>
+        </div>
+        <p class="banner-title">
+          글로벌 OTT 사업자의 광고 생태계 재편과 경쟁전략<br class="pc-br">: ‘구독 경쟁’에서 ‘광고수익 경쟁’으로 전환
+        </p>
+      </div>
+    </div>
+
+    <!-- 본문 영역 -->
+    <div>
+
+      <!-- 리드 문단 -->
+      <div class="lead-section">
+        <div class="lead-container">
+          <div class="datapoint-lead-block">
+            <p class="lead-text"><span class="quotes">“</span>글로벌 OTT 산업은 구독자 중심의 성장 전략에서 광고 수익 경쟁으로 구조적 전환기를 맞이하고 있다.
+              이제 광고는 부가적 수익원이 아닌 핵심 성장축으로 자리매김하였으며, 인공지능(AI)과 광고기술(Ad Tech), 1st-party 데이터는 사업자의 경쟁우위를 좌우하는 전략 자산으로 부상하고
+              있다. 본고는 주요 글로벌 OTT 사업자의 광고 전략과 경쟁구조를 분석하고, 스트리밍 TV 시대 광고 생태계 변화를 짚어본다.<span class="quotes">”</span></p>
+
+            <p class="lead-author">글. 정애리(중앙대학교 첨단영상대학원 겸임교수)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 메인 -->
+      <div class="main-content">
+
+        <!-- Section 1 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">글로벌 OTT 사업자별 광고 전략 비교 분석</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <div>
+              <p class="sub-heading">Netflix: 자체 광고기술 플랫폼의 구축으로 경쟁력 강화</p>
+
+              <p class="paragraph">
+                넷플릭스는 2022년 11월 광고기반 요금제 출시 이후, 전 세계 유료 가입자 수가 3억 2,500만 명을 돌파하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Netflix(2026.1.20). Netflix Q4 2025 Shareholder Letter."
+                  aria-label="1번 주석 보기">
+                  <sup>1)</sup>
+                </button><br><br>
+
+                넷플릭스의 2026년 상반기 광고 수익은 벌써 2025년 전체 광고 매출인 15억 달러를 상회해 전년 대비 2.5배 이상 증가한 것으로 파악된다. 2026년에는 약 30억 달러를 목표로 제시하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Deadline(2026.1.20). Netflix Edges Wall Street’s Q4 Estimates, Says Ad Revenue Topped $1.5B In 2025."
+                  data-url="https://deadline.com/2026/01/netflix-earnings-q4-2025-stranger-things-1236690381/"
+                  aria-label="2번 주석 보기">
+                  <sup>2)</sup>
+                </button><br><br>
+
+                넷플릭스는 광고형 요금제가 2024년 4분기 기준, 광고 제공 국가 신규 가입의 55% 이상을 차지한다고 밝혔으며, 2025년 1분기에는 광고형 멤버십이 전분기 대비 30% 성장했다고 발표하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Netflix(2025.4.17). Q1 2025 Shareholder Letter. Netflix Investor Relations."
+                  data-url="https://s22.q4cdn.com/959853165/files/doc_financials/2025/q1/COMBINED-Q1-25-Shareholder-Letter-V2.pdf"
+                  aria-label="3번 주석 보기">
+                  <sup>3)</sup>
+                </button><br><br>
+
+                이는 광고형 요금제가 낮은 가격에만 호소하는 다운셀(downsell) 상품이 아니라 신규 유입의 성장엔진으로 작동하고 있음을 시사한다.
+              </p>
+            </div>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript12/img1.png" alt="이미지 1" class="section-image" />
+
+              <div class="image-caption">
+                <p><span class="text-brand">[그림 1]</span> 넷플릭스 광고형 이용자(MAU) 증가와 광고 매출 추이</p>
+                <p>(출처: Netflix 주주서한(2024.1, 2025.1) 및 언론보도 종합, 2026년은 회사 목표치, 저자 정리)</p>
+              </div>
+            </div>
+
+            <p class="paragraph">
+              넷플릭스 광고 전략의 핵심은 자체 광고기술 플랫폼의 구축이다. 초기에는 마이크로소프트(Microsoft)의 광고서버에 의존하였으나, 2025년 4월 자체 개발한 넷플릭스 애즈 스위트(Netflix Ads Suite)를 출시하였고 이후 12개 광고 국가 전체로 확대했다. 넷플릭스는 AI 기술을 결합하여 광고 기획-제작-구매 전 단계의 효율성과 정밀도를 높이는 데 초점을 두며, 제작 단계에 AI 기반 미디어 계획·광고 관리 도구를 도입하고, 소재 자동 변환과 콘텐츠 결합 기술을 도어대시·타깃(DoorDash·Target) 등에 시범 적용해 연내 확대할 예정이다. 넷플릭스의 이와 같은 행보는 인공지능과 머신러닝을 광고 사업 전반에 접목하여 자동화·정교화를 추진하는 동시에, 자사가 축적한 방대한 오리지널 콘텐츠와 시청 데이터를 광고 자산으로 활용함으로써 차별적 경쟁우위를 확보하려는 전략으로 평가된다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Netflix(2026.5.14). Netflix Upfront 2026: Get Closer."
+                data-url="https://about.netflix.com/en/news/netflix-upfront-2026-get-closer"
+                aria-label="4번 주석 보기">
+                <sup>4)</sup>
+              </button>
+            </p>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript12/img2.png" alt="이미지 2" class="section-image" />
+
+              <div class="image-caption">
+                <p><span class="text-brand">[그림 2]</span> 넷플릭스의 Ads Suite와 주요 기술 파트너</p>
+                <p>
+                  (출처: 넷플릭스(2025.5.15.). 넷플릭스 업프런트 2025: 세상이 주목하는 곳
+
+                  <button
+                    type="button"
+                    class="note-link"
+                    data-note="넷플릭스(2025.5.15.). 넷플릭스 업프런트 2025: 세상이 주목하는 곳."
+                    data-url="https://about.netflix.com/ko/news/netflix-upfront-2025-the-center-of-attention"
+                    aria-label="5번 주석 보기">
+                    <sup>5)</sup>
+                  </button>)
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <p class="sub-heading">Disney+: 통합 번들과 크로스플랫폼 광고 생태계</p>
+
+              <p class="paragraph">
+                디즈니플러스는 훌루(Hulu)와 통합된 광고 생태계를 형성하며 광고 수익을 확대하고 있다. 2025년 4분기 기준, 두 회사의 합산 글로벌 구독자 수는 약 1억 9,600만 명에 달하며, DTC 부문은 흑자 전환에 성공하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="The Walt Disney Company(2025.11.13). Current Report (Form 8-K). U.S. Securities and Exchange Commission."
+                  data-url="https://www.sec.gov/Archives/edgar/data/1744489/000174448925000154/fy2025_q4xprxex991.htm"
+                  aria-label="6번 주석 보기">
+                  <sup>6)</sup>
+                </button><br><br>
+
+                광고요금제를 선택한 구독자 비율은 디즈니플러스가 약 30%, 훌루 약 65%에 달한다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Evoca(2026.4.2). Disney Plus Subscribers Stats 2026: Market Share &amp; Revenue."
+                  data-url="https://evoca.tv/disney-plus-users-statistics/"
+                  aria-label="7번 주석 보기">
+                  <sup>7)</sup>
+                </button><br><br>
+
+                디즈니플러스는 2025년부터 소비자 직접 판매(Direct-to-Consumer; D2C) SVOD 사업에서 발생하는 구독수익과 광고수익이 선형TV의 수수료 및 광고수익을 모두 상회했다고 광고형 요금제의 성과를 공식 재무지표로 투명하게 공시하고 있다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="The Walt Disney Company(2026.1.31). FISCAL YEAR 2025 ANNUAL FINANCIAL REPORT."
+                  data-url="https://s206.q4cdn.com/979796730/files/doc_financials/2025/ar/2025-Annual-Report.pdf"
+                  aria-label="8번 주석 보기">
+                  <sup>8)</sup>
+                </button><br><br>
+
+                SVOD 광고매출이 최초로 선형TV 광고매출을 넘어섰다는 점은 광고기반 스트리밍 사업이 선형TV 수익을 대체하는 구조로 전환되었음을 의미한다고 볼 수 있을 것이다.<br><br>
+
+                디즈니 광고 전략의 핵심은 Disney+·Hulu·ESPN+를 아우르는 크로스플랫폼에 걸쳐 광고를 판매할 수 있는 역량과 디즈니 컴퍼스(Disney Compass) 데이터 인프라를 활용한 정밀 타겟팅이다. 디즈니는 훌루가 축적한 광고 운영 역량을 Disney+ 생태계에 접목함으로써, 광고주에게 스포츠·엔터테인먼트·어린이 콘텐츠를 아우르는 통합 패키지 상품을 제공할 수 있게 되었다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="The Walt Disney Company(2025.2.5). Q1 FY2025 Earnings Release, SEC Form 8-K."
+                  data-url="https://www.sec.gov/Archives/edgar/data/0001744489/000174448925000066/fy2025_q1xprxex991.htm"
+                  aria-label="9번 주석 보기">
+                  <sup>9)</sup>
+                </button>
+              </p>
+            </div>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript12/img3.png" alt="이미지 3" class="section-image" />
+
+              <div class="image-caption">
+                <p><span class="text-brand">[그림 3]</span> 제6회 Global Tech &amp; Data Showcase(2026)와 디즈니의 AI 기반 광고 생태계</p>
+                <p>
+                  (출처: The Walt Disney Company(2026.1.6.). Disney Unveils New Solutions Powering Its Advertising Ecosystem at Sixth Annual Global Tech &amp; Data Showcase
+
+                  <button
+                    type="button"
+                    class="note-link"
+                    data-note="The Walt Disney Company(2026.1.6). Disney Unveils New Solutions Powering Its Advertising Ecosystem at Sixth Annual Global Tech &amp; Data Showcase."
+                    data-url="https://thewaltdisneycompany.com/news/tech-data-showcase-advertising-2026/"
+                    aria-label="10번 주석 보기">
+                    <sup>10)</sup>
+                  </button>)
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <p class="sub-heading">Amazon Prime Video: 커머스와 연동한 광고 플랫폼</p>
+
+              <p class="paragraph">
+                2024년 1월, 아마존 프라임 비디오는 기존 구독자의 기본 시청 환경을 광고 포함 방식으로 전환하는 전략을 단행하였다. 타 경쟁사가 저가 광고요금제를 추가 옵션으로 제공하는 방식과 달리, 아마존은 광고를 기본 설정으로 탑재하고 광고 없는 시청에는 월 2.99달러의 추가 요금을 부과하였다. 2025년 11월, 프라임 비디오의 광고기반 월간 시청자 수는 전 세계 3억 1,500만 명에 달하며 이는 동기간 넷플릭스 MAU 1억 9,000만 명을 크게 상회한다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Reuters(2025.11.6). Netflix institutes new viewer-based metric as ads reach 190 million viewers worldwide."
+                  data-url="https://www.reuters.com/business/media-telecom/netflix-institutes-new-viewer-based-metric-ads-reach-190-million-viewers-2025-11-05/"
+                  aria-label="11번 주석 보기">
+                  <sup>11)</sup>
+                </button><br><br>
+
+                아마존의 전체 광고서비스 매출은 2024년 약 562억 달러로, 총매출 대비 약 8.8%를 차지하며,
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Amazon(2025.2.6). AMAZON.COM ANNOUNCES FOURTH QUARTER RESULTS."
+                  data-url="https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf"
+                  aria-label="12번 주석 보기">
+                  <sup>12)</sup>
+                </button><br><br>
+
+                2026년 1분기에는 전년동기 대비 24% 증가한 약 172억 달러를 기록하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Reuters(2026.4.30). Amazon tops cloud expectations on strong AI demand, share rise."
+                  data-url="https://www.reuters.com/business/retail-consumer/amazon-beats-quarterly-cloud-growth-estimates-2026-04-29/"
+                  aria-label="13번 주석 보기">
+                  <sup>13)</sup>
+                </button><br><br>
+
+                아마존의 광고전략에서 독보적인 차별점은 자사 전자상거래 플랫폼과의 결합이다. <span class="bodyQuotes">‘</span>콘텐츠 시청→광고 노출→상품 구매<span class="bodyQuotes">’</span>를 구현하는 <span class="bodyQuotes">‘</span>쇼퍼블 광고(Shoppable Ads)<span class="bodyQuotes">’</span>를 도입하였으며, 아마존 DSP, 리테일 미디어,
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="리테일 미디어(Retail Media)란 유통사업자가 보유한 ‘1st-party 데이터’를 기반으로 자사 온라인 플랫폼, 오프라인 매장, CTV 등 다양한 미디어 환경에서 광고 판매와 성과 측정이 가능한 데이터 기반 생태계를 의미한다. 1st-party 데이터란 OTT 플랫폼 사업자가 가입자와의 직접적인 서비스 관계를 통해 자사 플랫폼 내에서 수집·축적하는 이용자 데이터로 회원정보, 콘텐츠 시청 이력, 검색 및 탐색 행동, 광고 노출 및 반응, 결제 정보 등이 대표적이다."
+                  aria-label="14번 주석 보기">
+                  <sup>14)</sup>
+                </button><br><br>
+
+                브랜드 검색광고, 쇼퍼 데이터를 연동하여 단순 도달이 아닌 구매전환과 리테일 성과까지 통합 평가한다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Business Insider(2025.3.5). How Amazon is looking to fend off growing competition from Netflix and others in streaming advertising."
+                  data-url="https://www.businessinsider.com/amazon-ads-pitch-performance-tools-competition-with-netflix-2025-3"
+                  aria-label="15번 주석 보기">
+                  <sup>15)</sup>
+                </button><br><br>
+
+                또한 아마존 마케팅 클라우드(Amazon Marketing Cloud; AMC)는 광고주가 아마존 자체 익명 데이터와 프라임 비디오 시청 신호를 결합하여 풀퍼널(full-funnel) 분석을 수행할 수 있도록 설계되어 있다. 이러한 아마존의 행보는 <span class="bodyQuotes">‘</span>리테일 미디어로서의 OTT<span class="bodyQuotes">’</span>라는 새로운 패러다임을 구축하려는 전략으로 해석할 수 있다.
+              </p>
+            </div>
+
+            <div>
+              <p class="sub-heading">HBO Max: 프리미엄 IP 기반 고가치 광고 전략</p>
+
+              <p class="paragraph">
+                워너 브로스 디스커버리(Warner Bros. Discovery; 이하 WBD)가 운영하는 맥스는 글로벌 스트리밍 구독자가 2025년 2분기, 1억 2,570만 명에 달했으며, 전체 신규 구독자의 50%가 광고 지원 요금제를 선택하고 있다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Warner Bros. Discovery(2025). Warner Bros. Discovery Reports Second Quarter 2025 Results."
+                  data-url="https://www.wbd.com/news/warner-bros-discovery-reports-second-quarter-2025-results"
+                  aria-label="16번 주석 보기">
+                  <sup>16)</sup>
+                </button><br><br>
+
+                맥스의 스트리밍 부문 광고 수익은 전년 대비 18% 상승한 2025년 2분기 2.82억 달러를 기록하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Warner Bros. Discovery(2025.8.7). Current Report (Form 8-K). U.S. Securities and Exchange Commission."
+                  data-url="https://www.sec.gov/Archives/edgar/data/1437107/000143710725000189/wbd2q25earningsrelease08.htm"
+                  aria-label="17번 주석 보기">
+                  <sup>17)</sup>
+                </button><br><br>
+
+                맥스의 광고전략은 광고 부하를 늘려 대중형 AVOD로 전환하는 것이 아니라, HBO 계열 프리미엄 이미지를 유지하면서 CPM(Cost Per Mille) 중심의 고단가 광고 수익화를 추구하는 것이다. WBD는 맥스의 광고형 요금제 광고부하가 시간당 4분 미만이라고 밝히고 있으며,
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Warner Bros. Discovery(2021.6.2). New HBO Max Ad-Supported Tier Is Available Today."
+                  data-url="https://press.wbd.com/na/media-release/hbo-max/new-hbo-max-ad-supported-tier-available-today"
+                  aria-label="18번 주석 보기">
+                  <sup>18)</sup>
+                </button><br><br>
+
+                광고 기반 가입자가 최근 2년간 두 배 성장했다고 밝혔다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="AdExchanger(2024.5.15). WBD Reasserts Its Place In Ad-Supported Streaming."
+                  data-url="https://www.adexchanger.com/tv/wbd-reasserts-its-place-in-ad-supported-streaming/"
+                  aria-label="19번 주석 보기">
+                  <sup>19)</sup>
+                </button><br><br>
+
+                또한 맥스는 광고기술(Ad Tech) 전문 기업인 KERV.ai와 협력하여 AI 기반 쇼퍼블 광고 솔루션(Shop with Max, Moments, Storyverse)을 도입하고, 콘텐츠 메타데이터와 AI를 활용한 문맥 기반 광고 및 구매 연계 기능을 구현하였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="KERV.ai(2024.11.21). Warner Bros. Discovery Advertising Sales Introduces New Ad Solutions: Shop with Max and Moments, Bringing Shoppable Entertainment to Streaming."
+                  data-url="https://kerv.ai/warner-bros-discovery-advertising-sales-introduces-new-ad-solutions/"
+                  aria-label="20번 주석 보기">
+                  <sup>20)</sup>
+                </button><br><br>
+
+                특히 NEO 플랫폼을 통해 스트리밍, 선형TV, FAST, 신디케이션 등 다양한 광고 인벤토리를 단일 인터페이스에서 통합 구매·운영할 수 있도록 지원함으로써 광고 집행의 효율성과 접근성을 높였다.
+
+                <button
+                  type="button"
+                  class="note-link"
+                  data-note="Warner Bros. Discovery 광고 홈페이지. NEO."
+                  data-url="https://advertising.wbd.com/neo"
+                  aria-label="21번 주석 보기">
+                  <sup>21)</sup>
+                </button><br><br>
+
+                요약하면, 광고 기반 이용자 규모는 빠르게 확대되고 있으나 각 사업자가 공시하는 지표의 정의가 서로 상이하여 현재로서는 성장 추세만 짐작할 수 있다. 그러나 분명한 것은 4개 사업자가 공표한 차별화 전략을 통해 광고 수익 경쟁에 참여하고 있다는 점이다. 이러한 차별화는 각 사업자의 콘텐츠 전략과 수익모델, 시장 포지셔닝의 차이를 반영하는 것으로 해석할 수 있다.
+              </p>
+            </div>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript12/img4.png" alt="이미지 4" class="section-image" />
+
+              <div class="image-caption">
+                <p><span class="text-brand">[그림 4]</span> 글로벌 OTT 사업자별 광고 도달 이용자 비교(각 사별 최신 공표치, 백만 명)</p>
+                <p>cf. 각 사업자들의 가입자·이용자·시청자 등 지표 정의와 산정 방식이 상이하므로, 절대적 수치 비교보다는 사업자의 성장 추세로 참고할 필요가 있음.</p>
+                <p>(출처: Variety(2026.5), AdWave(2025), Deadline(2025.11), Business of Apps(2026).)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">스트리밍 TV 환경에서 광고 수익 경쟁 본격화</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              최근 스트리밍 TV의 성장과 위상 변화는 뚜렷하다. 닐슨에 따르면, 2025년 12월 미국 TV 시청 중 스트리밍 비중은 47.5%로 방송(21.4%)과 케이블(20.2%) 합산을 상회해 역대 최고치를 기록하였다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Nielsen(2026.1.20). Streaming shatters multiple records in December 2025 with 47.5% of TV viewing, according to Nielsen’s The Gauge™. Nielsen News Center."
+                aria-label="22번 주석 보기">
+                <sup>22)</sup>
+              </button><br><br>
+
+              닐슨의 광고지원 시청 분석(Ad Supported Gauge)에 따르면, 2025년 1분기 전체 TV 시청의 72.4%가 광고지원 플랫폼에서 발생하였고, 그중 스트리밍이 42.4%로 최대 비중을 차지하였다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Nielsen(2025.5.1). Nielsen launches The Ad Supported Gauge, a new look at the ad-supported TV landscape. Nielsen News Center."
+                aria-label="23번 주석 보기">
+                <sup>23)</sup>
+              </button><br><br>
+
+              광고시장 전체도 같은 방향으로 움직이고 있다. IAB는 2024년 미국 인터넷 광고 매출이 전년 대비 14.9% 증가한 2,586억 달러를 기록했다고 밝혔으며,
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="IAB &amp; PwC(2025, April). Internet Advertising Revenue Report: Full Year 2024. IAB."
+                aria-label="24번 주석 보기">
+                <sup>24)</sup>
+              </button><br><br>
+
+              PwC는 2024년 전 세계 광고 수입의 72%가 디지털 포맷에서 발생했으며, CTV(Connected TV)는 광고매출이 510억 달러에 이를 것으로 전망하였다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="PwC(2025.7.24). Global Entertainment &amp; Media Outlook 2025–2029. PwC."
+                aria-label="25번 주석 보기">
+                <sup>25)</sup>
+              </button><br><br>
+
+              이는 OTT가 구독자 확대보다 광고를 통해 소비자 지불의 한계를 보완하는 방향으로 재편되고 있음을 보여준다.<br><br>
+
+              이용자 행태 변화도 이러한 변화를 뒷받침한다. 안테나(Antenna) 조사에 따르면 2025년 1분기, 광고형·무광고형을 병행 제공하는 미국 스트리밍 구독의 46%가 광고형이었으며, 최근 9개 분기 순증 가입의 71%를 광고형 요금제가 견인하였다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Antenna(2025, May). Q2'25 State of Subscriptions: Adds &amp; Ads. Antenna."
+                aria-label="26번 주석 보기">
+                <sup>26)</sup>
+              </button><br><br>
+
+              특히 아마존이 선도하는 <span class="bodyQuotes">‘</span>리테일 미디어 + OTT<span class="bodyQuotes">’</span> 결합 모델은 OTT 광고 생태계에 새로운 패러다임을 제시하고 있다. 미국 내 리테일 미디어 CTV 광고 지출은 2025년 49.9억 달러에서 2028년 102.8억 달러로 두 배 이상 성장할 것으로 전망된다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="https://research.mountain.com/trends/ctv-ad-spend-will-grow-to-46-89-billion-by-2028/"
+                data-url="https://research.mountain.com/trends/ctv-ad-spend-will-grow-to-46-89-billion-by-2028/"
+                aria-label="27번 주석 보기">
+                <sup>27)</sup>
+              </button><br><br>
+
+              이제 단순히 광고 노출빈도를 넘어 특정 이용자 집단에 광고를 타겟팅하고 성과 측정까지 최적화하는 이른바 <span class="bodyQuotes">‘</span>퍼포먼스 TV(Performance TV)<span class="bodyQuotes">’</span> 시대가 열린 것이다.<br><br>
+
+              한편 글로벌 OTT 사업자들의 광고 수익 경쟁은 광고기술(Ad Tech) 역량 확대를 통해 속도전을 내는 모습을 확인할 수 있다. 넷플릭스는 자체 광고 플랫폼 넷플릭스 애즈 스위트(Netflix Ads Suite)를 광고를 지원하는 전 국가로 확대하였고, 디즈니플러스는 훌루의 운영 노하우와 디즈니 컴파스 데이터를 통합하였다. 아마존은 자사 DSP·리테일 데이터를 프라임 비디오(Prime Video)에 직접 연결하였고, WBD는 스튜디오·스트리밍·선형을 아우르는 통합 판매 체계를 정비하고 있다. 이는 광고 서버·측정·세그먼트 연동을 직접 통제해 <span class="bodyQuotes">‘</span>1st-party 데이터<span class="bodyQuotes">’</span>와 수익 마진을 지키려는 전략적 선택이다.
+            </p>
+
+            <div class="image-wrap">
+              <img src="./img/manuscript12/img5.png" alt="표 1" class="section-image" />
+
+              <div class="image-caption">
+                <p><span class="text-brand">&lt;표 1&gt;</span> 사업자별 광고 기술 스택(Ad Tech Stack) 비교</p>
+                <p>(출처: 각 사업자 공시 자료 및 업계 조사 보고서 기반)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">나가며: 국내 시장에 주는 함의</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              국내 OTT 시장은 넷플릭스가 이용자 기반을 주도하는 가운데 티빙, 웨이브, 쿠팡플레이 등 토종 OTT들은 스포츠 중계와 오리지널 콘텐츠 투자로 경쟁하고 있다. 비록 공정거래위원회가 티빙과 웨이브의 합병을 조건부 승인하였음에도 본 계약 체결이 지연되고 있으나,
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="동행미디어 시대(2025.12.24). &quot;[아듀! 2025] 티빙·웨이브, 2년 만에 합병 재시동 거나&quot;."
+                data-url="https://www.sidae.com/article/2025122214055357368"
+                aria-label="28번 주석 보기">
+                <sup>28)</sup>
+              </button><br><br>
+
+              통합 요금제와 공동 광고 플랫폼은 이미 출시되어 실질적 통합 기반이 구축되었다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="ZDNet Korea(2025.9.19). &quot;티빙·웨이브, 합병 이전에 통합 광고 플랫폼 출범&quot;."
+                data-url="https://zdnet.co.kr/view/?no=20250919161503"
+                aria-label="29번 주석 보기">
+                <sup>29)</sup>
+              </button><br><br>
+
+              국내에서도 2025년 넷플릭스·티빙 이용자의 약 35%가 광고형 요금제를 선택하고, OTT 광고 시장이 전년 대비 27% 확대될 것이라는 전망은
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="파이낸셜뉴스(2026.1.29). 잘 나가는 OTT ‘광고형 요금제’… 구독자 늘고 매출 뛰어."
+                data-url="https://www.fnnews.com/news/202601291815226093"
+                aria-label="30번 주석 보기">
+                <sup>30)</sup>
+              </button><br><br>
+
+              광고 중심의 성장 전략이 요구됨을 시사한다.<br><br>
+
+              OTT 산업에서 광고는 이제 부가 수익을 넘어 성장의 핵심 축으로 부상하고 있다. 글로벌 OTT 사례를 통해 알 수 있었듯이, 콘텐츠 경쟁력이 실제 광고 수익으로 전환되기 위해서는 이용자 데이터 경쟁력 확보가 필요하다. 그리고 이용자 흐름을 빠르게 포착해 내기 위해서는 광고 기술(Ad Tech) 역량 강화 방안에 대한 시장의 고민은 계속될 것이다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Reference List Section -->
+        <div class="reference-list">
+          <!-- 제목 -->
+          <div class="reference-title">참고문헌</div>
+
+          <!-- 리스트 -->
+          <ol class="reference-items hanging-indent">
+            <li>
+              <a href="https://www.sidae.com/article/2025122214055357368" target="_blank">
+                동행미디어 시대(2025.12.24). <span class="bodyQuotes">“</span>[아듀! 2025] 티빙·웨이브, 2년 만에 합병 재시동 거나<span
+                  class="bodyQuotes">”</span>.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.fnnews.com/news/202601291815226093" target="_blank">
+                파이낸셜뉴스(2026.1.29). 잘 나가는 OTT <span class="bodyQuotes">‘</span>광고형 요금제<span class="bodyQuotes">’</span>…
+                구독자 늘고 매출 뛰어.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://zdnet.co.kr/view/?no=20250919161503" target="_blank">
+                ZDNet Korea(2025.9.19). <span class="bodyQuotes">“</span>티빙·웨이브, 합병 이전에 통합 광고 플랫폼 출범<span
+                  class="bodyQuotes">”</span>.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.adexchanger.com/tv/wbd-reasserts-its-place-in-ad-supported-streaming/"
+                target="_blank">
+                AdExchanger(2024.5.15). WBD Reasserts Its Place In Ad-Supported Streaming.
+              </a>
+            </li>
+
+            <li>
+              AdWave(2025). Disney Ad-Supported Viewers: 157M Monthly Active Users.
+            </li>
+
+            <li>
+              <a href="https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf"
+                target="_blank">
+                Amazon(2025.2.6). AMAZON.COM ANNOUNCES FOURTH QUARTER RESULTS.
+              </a>
+            </li>
+
+            <li>
+              Antenna(2025, May). Q2'25 State of Subscriptions: Adds & Ads. Antenna.
+            </li>
+
+            <li>
+              <a href="https://www.businessinsider.com/amazon-ads-pitch-performance-tools-competition-with-netflix-2025-3"
+                target="_blank">
+                Business Insider(2025.3.5). How Amazon is looking to fend off growing competition from Netflix and
+                others in streaming advertising.
+              </a>
+            </li>
+
+            <li>
+              Business of Apps(2026). Max Revenue and Usage Statistics.
+            </li>
+
+            <li>
+              Deadline(2025.11). Amazon Prime Video Ad-Supported Reach Hits 315M Monthly Viewers.
+            </li>
+
+            <li>
+              <a href="https://deadline.com/2026/01/netflix-earnings-q4-2025-stranger-things-1236690381/"
+                target="_blank">
+                Deadline(2026.1.20). Netflix Edges Wall Street’s Q4 Estimates, Says Ad Revenue Topped $1.5B In 2025.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://evoca.tv/disney-plus-users-statistics/" target="_blank">
+                Evoca(2026.4.2). <span class="bodyQuotes">“</span>Disney Plus Subscribers Stats 2026: Market Share &
+                Revenue<span class="bodyQuotes">”</span>.
+              </a>
+            </li>
+
+            <li>
+              IAB & PwC(2025, April). Internet Advertising Revenue Report: Full Year 2024. IAB.
+            </li>
+
+            <li>
+              <a href="https://kerv.ai/warner-bros-discovery-advertising-sales-introduces-new-ad-solutions/"
+                target="_blank">
+                KERV.ai(2024.11.21). Warner Bros. Discovery Advertising Sales Introduces New Ad Solutions: Shop with Max
+                and Moments, Bringing Shoppable Entertainment to Streaming.
+              </a>
+            </li>
+
+            <li>
+              Netflix(2026.1.20). Netflix Q4 2025 Shareholder Letter.
+            </li>
+
+            <li>
+              <a href="https://about.netflix.com/en/news/netflix-upfront-2026-get-closer" target="_blank">
+                Netflix(2026.5.14). Netflix Upfront 2026: Get Closer.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://s22.q4cdn.com/959853165/files/doc_financials/2025/q1/COMBINED-Q1-25-Shareholder-Letter-V2.pdf"
+                target="_blank">
+                Netflix(2025.4.17). Q1 2025 Shareholder Letter. Netflix Investor Relations.
+              </a>
+            </li>
+
+            <li>
+              Nielsen(2025.5.1). Nielsen launches The Ad Supported Gauge, a new look at the ad-supported TV landscape.
+              Nielsen News Center.
+            </li>
+
+            <li>
+              Nielsen(2026.1.20). Streaming shatters multiple records in December 2025 with 47.5% of TV viewing,
+              according to Nielsen's The Gauge™. Nielsen News Center.
+            </li>
+
+            <li>
+              PwC(2025.7.24). Global Entertainment & Media Outlook 2025–2029. PwC.
+            </li>
+
+            <li>
+              <a href="https://www.reuters.com/business/media-telecom/netflix-institutes-new-viewer-based-metric-ads-reach-190-million-viewers-2025-11-05/"
+                target="_blank">
+                Reuters(2025.11.6). Netflix institutes new viewer-based metric as ads reach 190 million viewers
+                worldwide.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.reuters.com/business/retail-consumer/amazon-beats-quarterly-cloud-growth-estimates-2026-04-29/"
+                target="_blank">
+                Reuters(2026.4.30). Amazon tops cloud expectations on strong AI demand, share rise.
+              </a>
+            </li>
+
+            <li>
+              Variety(2026.5). Netflix Claims Ad Tier Now Reaches 250 Million Viewers Worldwide, Up From 190 Million.
+            </li>
+
+            <li>
+              <a href="https://www.sec.gov/Archives/edgar/data/0001744489/000174448925000066/fy2025_q1xprxex991.htm"
+                target="_blank">
+                The Walt Disney Company(2025.2.5). <span class="bodyQuotes">“</span>Q1 FY2025 Earnings Release<span
+                  class="bodyQuotes">”</span>, SEC Form 8-K.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.sec.gov/Archives/edgar/data/1744489/000174448925000154/fy2025_q4xprxex991.htm"
+                target="_blank">
+                The Walt Disney Company(2025.11.13). Current Report (Form 8-K). U.S. Securities and Exchange Commission.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://s206.q4cdn.com/979796730/files/doc_financials/2025/ar/2025-Annual-Report.pdf"
+                target="_blank">
+                The Walt Disney Company(2026.1.31). FISCAL YEAR 2025 ANNUAL FINANCIAL REPORT.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://press.wbd.com/na/media-release/hbo-max/new-hbo-max-ad-supported-tier-available-today"
+                target="_blank">
+                Warner Bros. Discovery(2021.6.2). New HBO Max Ad-Supported Tier Is Available Today.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.sec.gov/Archives/edgar/data/1437107/000143710725000189/wbd2q25earningsrelease08.htm"
+                target="_blank">
+                Warner Bros. Discovery(2025.8.7). Current Report (Form 8-K). U.S. Securities and Exchange Commission.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://advertising.wbd.com/neo" target="_blank">
+                Warner Bros. Discovery 광고 홈페이지.
+              </a>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Author Profile -->
+        <div class="author-profile">
+          <img src="./img/manuscript12/profile.png" alt="정애리" class="author-img" />
+          <div class="author-info">
+            <p class="author-name">
+              정애리
+              <br class="mobile-br" />
+              <span class="author-affiliation">(중앙대학교 첨단영상대학원 겸임교수)</span>
+            </p>
+            <p class="author-description">
+              중앙대학교 언론학 박사를 받고 FSU(Florida State University)에서 박사후과정을 수료했다. 중앙대학교 예술대학원 객원교수, 중앙대학교 콘텐츠 디자인 연구소 학술연구교수,
+              중앙대학교 문화예술교육원 전문연구원을 역임했다. 주요 연구로 「방송콘텐츠 진흥사업 실태조사」(2025), 「콘텐츠 산업 노동환경 조사 연구」(2025), 「콘텐츠 산업 일자리 창출 방안
+              연구」(2024), 「방송 포맷(K-포맷) 해외 불법 복제 및 유통현황 조사」(2023), 「방송영상콘텐츠 제작산업 경쟁현황 분석 연구」(2021) 등이 있다.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post Navigator -->
+      <div class="post-navigator">
+        <a href="./data_1.html" class="post-nav prev">
+          <div class="post-nav-header">
+            <img src="./img/assets/arrow.png" alt="화살표" class="arrow" />
+            <p>이전 글</p>
+          </div>
+          <span class="post-nav-title">[2026년 2분기] 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향</span>
+        </a>
+
+        <div class="post-nav-div"></div>
+
+        <a href="./data_3.html" class="post-nav next">
+          <div class="post-nav-header">
+            <p>다음 글</p>
+            <img src="./img/assets/arrow.png" alt="화살표" class="arrow rotate" />
+          </div>
+          <span class="post-nav-title">월드컵 중계권료는 오르는데 TV 시청률은 왜 떨어질까?<br class="pc-br">: 시청자는 사라진 것이 아니라 이동했다</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- 상단: 로고와 설명 -->
+      <div class="footer-top-wrap">
+        <div class="footer-top">
+
+          <div class="footer-logo-wrap">
+            <img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
+
+            <p class="footer-description">
+              &lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
+              <br class="footer-hidden" />
+              본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
+            </p>
+          </div>
+
+          <!-- 발행 정보 -->
+          <div class="footer-info">
+            <div class="footer-info-group">
+              <div>
+                <p>발행인</p>
+                <p>김윤지(한국콘텐츠진흥원 원장)</p>
+              </div>
+              <div>
+                <p>발행일</p>
+                <p>2026년 7월 30일</p>
+              </div>
+              <div>
+                <p>발행처</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원</p>
+                  <p>전라남도 나주시 교육길 35</p>
+                  <p>T. 1566-1114</p>
+                  <p>https://www.kocca.kr</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-info-group">
+              <div>
+                <p>기획·편집</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 정책연구본부 산업정책팀</p>
+                  <p>(주)컬쳐미디어랩</p>
+                </div>
+              </div>
+
+              <div>
+                <p>기획위원</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
+                  <p>장민지(경남대학교 미디어영상학과 조교수)</p>
+                  <p>이영주(서울과학기술대학교 IT정책전문대학원 융합미디어콘텐츠정책전공 교수)</p>
+                </div>
+              </div>
+
+              <div>
+                <p>ISSN</p>
+                <div>
+                  <p>3091-6771(online)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-buttons">
+          <a href="./download/2026_방송영상&OTT트렌드_Vol2_PDF_최종본.pdf" class="footer-button-outline"
+            download="2026_방송영상&OTT트렌드_Vol2_PDF">2026 Vol.2 (7월호) PDF 다운받기</a>
+          <a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
+            class="footer-button-filled">구독 신청하기</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Korea Creative Content Agency. All rights reserved.</p>
+        <img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
+      </div>
+    </div>
+  </footer>
+
+  <!-- 상/하단 이동 버튼 -->
+  <div class="page-anchor-buttons">
+    <button type="button" class="page-anchor-btn page-top-btn" onclick="scrollToTop()" aria-label="상단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
+
+    <button type="button" class="page-anchor-btn page-bottom-btn" onclick="scrollToBottom()" aria-label="하단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
+  </div>
+
+  <!-- 하단 플로팅 바 -->
+  <nav class="article-floating-nav" aria-label="게시글 이동">
+    <div class="article-floating-nav-inner">
+      <a href="./data_1.html" class="floating-nav-btn prev">
+        <img src="./img/assets/arrow.png" alt="" width="24" height="24">
+        <span>이전글</span>
+      </a>
+
+      <div class="floating-issue-info">
+        <span class="issue-label">2026 Vol.2 (7월호)</span>
+      </div>
+
+      <a href="./data_3.html" class="floating-nav-btn next">
+        <span>다음글</span>
+        <img class="rotate" src="./img/assets/arrow.png" alt="" width="24" height="24">
+      </a>
+    </div>
+  </nav>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/note-tooltip.js"></script>
+</body>
+
+</html>

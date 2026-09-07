@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="방송영상·OTT 트렌드 2026 Vol.2" />
+  <meta property="og:image" content="./img/assets/meta.png">
+  <title>방송영상 · OTT 트렌드</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/swiper.css" />
+  <link rel="stylesheet" href="./css/detail.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GH6ZRLY8VY');
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="./index.html" class="logo-wrap">
+        <img src="./img/assets/logo-white.png" alt="로고" class="logo" />
+      </a>
+
+      <div class="nav-right">
+        <div class="nav">
+          <a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
+          <a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
+          <a href="./index.html#people" class="nav-item">피플 인사이트</a>
+          <a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
+          <a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
+        </div>
+
+        <button type="button" id="menu-toggle" class="header-vol-info" aria-label="메뉴 열기">
+          <span class="vol-text">2026 Vol.2 (7월호)</span>
+
+          <span class="hamburger" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Fullscreen Mobile Modal -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="menu-header">
+        <p class="menu-title">메뉴</p>
+        <div class="menu-right">
+          <div class="vol-info">2026 Vol.2 (7월호)</div>
+          <button type="button" id="menu-close">
+            <img src="./img/assets/close.png" alt="닫기" class="close-btn" />
+          </button>
+        </div>
+      </div>
+      <div id="menu-content" class="menu-content"></div>
+    </div>
+  </header>
+
+  <!-- Swiper 배너 -->
+  <div class="swiper-container main-banner-swiper">
+    <div class="swiper-wrapper" id="swiper-slides"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- 콘텐츠: Spotlight 섹션 -->
+  <section id="spotlight" class="section spotlight">
+    <div class="section-container">
+      <div class="section-title-wrap">
+        <div class="section-title-text">
+          <p class="kor-title">스포트라이트</p>
+          <p class="eng-title">
+            Spotligh<span class="text-highlight">T</span>
+          </p>
+        </div>
+        <img src="./img/assets/spotlight-subject-pc.png" alt="주제" class="subject-img-pc" />
+      </div>
+
+      <img src="./img/assets/spotlight-subject-m.png" alt="주제" class="subject-img-m" />
+
+      <div class="swiper spotlight-swiper">
+        <div class="swiper-wrapper spotlight-grid">
+          <!-- SpotlightItem A -->
+          <div class="swiper-slide">
+            <a href="./spotlight_1.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript1/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">이성민ㅣ한국방송통신대학교 미디어영상학과 교수</p>
+                <h2 class="item-title">커지는 숏드라마 시장, 한국의 자리는 어디인가</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- SpotlightItem B -->
+          <div class="swiper-slide">
+            <a href="./spotlight_2.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript2/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">[기획특집] 숏드라마 사업자 현장 탐방 인터뷰 1</p>
+                <h2 class="item-title">AI로 확장하는 팬덤 IP &lt;와이낫미디어&gt;, 이민석 대표</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- SpotlightItem C -->
+          <div class="swiper-slide">
+            <a href="./spotlight_3.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript3/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">[기획특집] 숏드라마 사업자 현장 탐방 인터뷰 2</p>
+                <h2 class="item-title">데이터와 AI로 숏드라마를 혁신하다 &lt;밤부네트워크&gt;, 정다빈 대표</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- SpotlightItem D -->
+          <div class="swiper-slide">
+            <a href="./spotlight_4.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript4/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">[기획특집] 숏드라마 사업자 현장 탐방 인터뷰 3</p>
+                <h2 class="item-title">CJ그룹 사내벤처 1호 &lt;스튜디오 숏냅스&gt;</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- SpotlightItem E -->
+          <div class="swiper-slide">
+            <a href="./spotlight_5.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript5/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">[기획특집] 숏드라마 사업자 현장 탐방 인터뷰 4</p>
+                <h2 class="item-title">K-숏드라마로 글로벌을 공략한다 &lt;비글루&gt;, 이소담 총괄</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- SpotlightItem F -->
+          <div class="swiper-slide">
+            <a href="./spotlight_6.html" class="spotlight-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript6/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">[기획특집] 숏드라마 사업자 현장 탐방 인터뷰 5</p>
+                <h2 class="item-title">웰메이드 콘텐츠로 승부한다 &lt;레진스낵&gt;, 이아사 영상사업부 부장</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev spotlight-button-prev">
+          <img src="./img/assets/page-arrow.png" alt="이전">
+        </div>
+        <div class="swiper-button-next spotlight-button-next">
+          <img src="./img/assets/page-arrow.png" alt="다음">
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- 콘텐츠: Trend 섹션 -->
+  <section id="trend" class="section">
+    <div class="section-container">
+      <div class="section-title-wrap">
+        <div class="section-title-text">
+          <p class="kor-title">트렌드 하이라이트</p>
+          <p class="eng-title">
+            Trend Highligh<span class="text-highlight">T</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper trend-swiper">
+        <div class="swiper-wrapper trend-grid">
+          <!-- TrendItem A -->
+          <div class="swiper-slide">
+            <a href="./trend_1.html" class="trend-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript7/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">정덕현ㅣ대중문화평론가</p>
+                <h2 class="item-title">
+                  올드 IP의 귀환은 무얼 말해주는 걸까: 올드 IP의 귀환을 둘러싼 콘텐츠 산업의 변화들
+                </h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- TrendItem B -->
+          <div class="swiper-slide">
+            <a href="./trend_2.html" class="trend-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript8/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">반옥숙ㅣ한국콘텐츠진흥원 산업정책팀 책임연구원</p>
+                <h2 class="item-title">
+                  일본·싱가포르·헝가리 사례로 살펴보는 K-로케이션 인센티브 정책의 방향
+                </h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- TrendItem C -->
+          <div class="swiper-slide">
+            <a href="./trend_3.html" class="trend-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript9/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">이영주ㅣ서울과학기술대학교 IT정책전문대학원 융합미디어콘텐츠정책전공 교수</p>
+                <p class="item-author">한선옥ㅣ동아방송예술대학교 영상제작과 교수</p>
+                <h2 class="item-title">
+                  셀럽 IP 시대의 방송영상콘텐츠: ‘채널’에서 ‘개인’으로 이동하는 미디어 권력
+                </h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev trend-button-prev">
+          <img src="./img/assets/page-arrow.png" alt="이전" />
+        </div>
+        <div class="swiper-button-next trend-button-next">
+          <img src="./img/assets/page-arrow.png" alt="다음" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 콘텐츠: People 섹션 -->
+  <section id="people" class="section people">
+    <div class="section-container people-container">
+      <div class="people-layout">
+        <div class="section-title-text people-title-row">
+          <p class="kor-title">피플 인사이트</p>
+          <p class="eng-title people-eng-title">People Insigh<span class="text-highlight">T</span></p>
+
+          <img src="./img/assets/people-subject-pc.png" alt="주제" class="subject-img-pc people-subject-pc" />
+        </div>
+
+        <div>
+          <img src="./img/assets/people-subject-m.png" alt="주제" class="subject-img-m people-subject-m" />
+
+          <div class="people-content-row">
+            <div class="people-thumb-wrap">
+              <a href="./people_1.html" class="people-item people-thumb-link">
+                <div
+                  class="item-bg people-thumb-bg"
+                  style="background-image: url('./img/manuscript10/thum.png');"></div>
+              </a>
+            </div>
+
+            <div class="people-text-wrap">
+              <a href="./people_1.html" class="people-text-link">
+                <h2 class="people-title">셀럽 IP와 영상콘텐츠 생태계의 확장</h2>
+                <p class="people-subtitle">스튜디오 에피소드 이정호 PD 인터뷰</p>
+                <p class="people-desc">
+                  27개가 넘는 채널을 운영하며 셀럽 IP 콘텐츠로 대중의 마음을 사로잡고 있는 ‘스튜디오 에피소드’는 올해 9년차 스타트업이다. 유튜브라는 플랫폼을 인물 서사의 최적 공간으로 재해석하며 카테고리별 1등을 향해 달리고 있는 스튜디오 에피소드만의 생존전략을 들어본다.
+                </p>
+              </a>
+
+              <div class="people-button-wrap">
+                <a href="./people_1.html" class="people-button people-button-filled">
+                  자세히 보기
+                </a>
+                <a href="https://www.youtube.com/watch?v=4E-wk46sOUE" target="_blank" class="people-button people-button-outline">
+                  인터뷰 영상 보기
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 콘텐츠: Data Point 섹션 -->
+  <section id="data-point" class="section data-point">
+    <div class="section-container">
+      <div class="section-title-wrap" id="data-subject-wrap">
+        <div class="section-title-text">
+          <p class="kor-title">데이터 포인트</p>
+          <p class="eng-title">
+            Data Poin<span class="text-highlight">T</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper data-swiper">
+        <div class="swiper-wrapper data-grid">
+          <!-- DataItem A -->
+          <div class="swiper-slide">
+            <a href="./data_1.html" class="data-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript11/thum.jpg');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <h2 class="item-title">
+                  [2026년 2분기] 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향
+                </h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- DataItem B -->
+          <div class="swiper-slide">
+            <a href="./data_2.html" class="data-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript12/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">정애리ㅣ중앙대학교 첨단영상대학원 겸임교수</p>
+                <h2 class="item-title">글로벌 OTT 사업자의 광고 생태계 재편과 경쟁전략 : ‘구독 경쟁’에서 ‘광고수익 경쟁’으로 전환</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- DataItem C -->
+          <div class="swiper-slide">
+            <a href="./data_3.html" class="data-item">
+              <div class="item-bg" style="background-image: url('./img/manuscript13/thum.png');"></div>
+              <div class="item-overlay"></div>
+              <div class="item-content">
+                <p class="item-author">김미선ㅣ이화여자대학교 커뮤니케이션미디어연구소 연구원</p>
+                <h2 class="item-title">월드컵 중계권료는 오르는데 TV 시청률은 왜 떨어질까? : 시청자는 사라진 것이 아니라 이동했다</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="button-hidden swiper-button-prev data-button-prev">
+          <img src="./img/assets/page-arrow.png" alt="이전" />
+        </div>
+        <div class="button-hidden swiper-button-next data-button-next">
+          <img src="./img/assets/page-arrow.png" alt="다음" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 콘텐츠: Global 섹션 -->
+  <section id="global" class="section global">
+    <div class="section-container">
+      <div class="section-title-text global-title-wrap">
+        <div class="global-title-inner">
+          <div class="global-title-text">
+            <p class="kor-title">글로벌 마켓 리포트</p>
+            <p class="eng-title">Global Market Repor<span class="text-highlight">T</span></p>
+          </div>
+
+          <!-- Card Grid -->
+          <div class="global-card-grid">
+            <!-- 북미 -->
+            <a href="./global_1.html" class="global-region-card global-card-na">
+              <span class="global-card-line global-line-na"></span>
+              <span class="global-card-circle global-circle-na"></span>
+              <span class="global-card-bg-text global-text-na">NA</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">북미</h3>
+                  <p class="global-card-subtitle">North America</p>
+                </div>
+
+                <div class="global-flag-box global-flag-na" aria-hidden="true">
+                  <img src="./img/assets/flag/us.png" alt="" class="global-flag" />
+                  <img src="./img/assets/flag/ca.png" alt="" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-na">
+                <li><span></span><p>(미국 1) 아직 끝나지 않은 파라마운트의 워너 브러더스 인수</p></li>
+                <li><span></span><p>(미국 2) 세제 개편으로 지역 경제 활력 기대감 높은 캘리포니아, ‘주 예산안 한도 조항’이라는 복병</p></li>
+                <li><span></span><p>(캐나다) 캐나다 방송통신위원회(CRTC), 민간·스트리밍 방송 상생을 위한 ‘현대화된 CPE 프레임워크’ 발표</p></li>
+              </ul>
+            </a>
+
+            <!-- 중남미 -->
+            <a href="./global_2.html" class="global-region-card global-card-la">
+              <span class="global-card-line global-line-la"></span>
+              <span class="global-card-circle global-circle-la"></span>
+              <span class="global-card-bg-text global-text-la">LA</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">중남미</h3>
+                  <p class="global-card-subtitle">Latin America</p>
+                </div>
+
+                <div class="global-flag-box global-flag-la" aria-hidden="true">
+                  <img src="./img/assets/flag/br.png" alt="" class="global-flag" />
+                  <img src="./img/assets/flag/mx.png" alt="" class="global-flag" />
+                  <img src="./img/assets/flag/uy.png" alt="" class="global-flag" />
+                  <img src="./img/assets/flag/ar.png" alt="" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-la">
+                <li><span></span><p>(공통) 넷플릭스, 라틴아메리카에 인터랙티브 광고 도입</p></li>
+                <li><span></span><p>(브라질) 스포츠 스타 IP와 AI 기반 마이크로 드라마의 만남</p></li>
+                <li><span></span><p>(멕시코) 구독경제 모델의 한계와 전망</p></li>
+              </ul>
+            </a>
+
+            <!-- 유럽 -->
+            <a href="./global_3.html" class="global-region-card global-card-eu">
+              <span class="global-card-line global-line-eu"></span>
+              <span class="global-card-circle global-circle-eu"></span>
+              <span class="global-card-bg-text global-text-eu">EU</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">유럽</h3>
+                  <p class="global-card-subtitle">Europe</p>
+                </div>
+
+                <div class="global-flag-box global-flag-eu" aria-hidden="true">
+                  <img src="./img/assets/flag/uk.png" alt="영국" class="global-flag" />
+                  <img src="./img/assets/flag/fr.png" alt="프랑스" class="global-flag" />
+                  <img src="./img/assets/flag/es.png" alt="스페인" class="global-flag" />
+                  <img src="./img/assets/flag/de.png" alt="독일" class="global-flag" />
+                  <img src="./img/assets/flag/hu.png" alt="헝가리" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-eu">
+                <li><span></span><p>(영국 1) ITV, 월드컵 특수와 스카이 매각 소식</p></li>
+                <li><span></span><p>(영국 2) BBC, 생존을 위한 적극적 변화 모색</p></li>
+                <li><span></span><p>(영국 3) 아역 배우 에이전트 협회, AI 목소리 사용 계약에 경고장</p></li>
+              </ul>
+            </a>
+
+            <!-- 아시아 -->
+            <a href="./global_4.html" class="global-region-card global-card-as">
+              <span class="global-card-line global-line-as"></span>
+              <span class="global-card-circle global-circle-as"></span>
+              <span class="global-card-bg-text global-text-as">AS</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">아시아</h3>
+                  <p class="global-card-subtitle">Asia</p>
+                </div>
+
+                <div class="global-flag-box global-flag-as" aria-hidden="true">
+                  <img src="./img/assets/flag/cn.png" alt="중국" class="global-flag" />
+                  <img src="./img/assets/flag/jp.png" alt="일본" class="global-flag" />
+                  <img src="./img/assets/flag/in.png" alt="인도" class="global-flag" />
+                  <img src="./img/assets/flag/th.png" alt="태국" class="global-flag" />
+                  <img src="./img/assets/flag/tr.png" alt="튀르키예" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-as">
+                <li><span></span><p>(중국) 중국 콘텐츠 산업의 AI 가속화와 숏드라마 시장 제도 정비 본격화</p></li>
+                <li><span></span><p>(일본) 넷플릭스 배급, TBS-U-NEXT 제휴, 군마현 로케 유치… 일본 콘텐츠 산업의 행보</p></li>
+                <li><span></span><p>(인도) 인도 콘텐츠 시장에 부는 숏드라마 열풍</p></li>
+              </ul>
+            </a>
+
+            <!-- 중동 ∙ 아프리카 -->
+            <a href="./global_5.html" class="global-region-card global-card-mea">
+              <span class="global-card-line global-line-mea"></span>
+              <span class="global-card-circle global-circle-mea"></span>
+              <span class="global-card-bg-text global-text-mea">MEA</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">중동 ∙ 아프리카</h3>
+                  <p class="global-card-subtitle">Middle East & Africa</p>
+                </div>
+
+                <div class="global-flag-box global-flag-as" aria-hidden="true">
+                  <img src="./img/assets/flag/pk.png" alt="파키스탄" class="global-flag" />
+                  <img src="./img/assets/flag/af.png" alt="아프리카" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-mea">
+                <li><span></span><p>(파키스탄) 파키스탄, 넷플릭스와 협상 + 자체 OTT 플랫폼 개발</p></li>
+                <li><span></span><p>(아프리카) 나이지리아, 무료 스트리밍 플랫폼 출시</p></li>
+              </ul>
+            </a>
+
+            <!-- 대양주 -->
+            <a href="./global_6.html" class="global-region-card global-card-oc">
+              <span class="global-card-line global-line-oc"></span>
+              <span class="global-card-circle global-circle-oc"></span>
+              <span class="global-card-bg-text global-text-oc">OC</span>
+
+              <div class="global-card-head">
+                <div class="global-card-title-box">
+                  <h3 class="global-card-title">대양주</h3>
+                  <p class="global-card-subtitle">Oceania</p>
+                </div>
+
+                <div class="global-flag-box global-flag-oc" aria-hidden="true">
+                  <img src="./img/assets/flag/au.png" alt="호주" class="global-flag" />
+                  <img src="./img/assets/flag/nz.png" alt="뉴질랜드" class="global-flag" />
+                </div>
+              </div>
+
+              <ul class="global-card-list global-list-oc">
+                <li><span></span><p>(호주) TV 광고 침체 속 호주 미디어업계, 차세대 창작자 투자는 계속</p></li>
+                <li><span></span><p>(뉴질랜드) 광고 없는 HBO Max 진입, 현지 방송·제작 생태계 압박 가중</p></li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 만족도 조사-->
+  <section id="survey" class="section">
+    <div class="section-container">
+      <div class="survey-banner">
+        <div class="survey-content">
+          <div class="survey-meta">
+            <span>만족도 조사</span>
+            <span class="survey-divider">ㅣ</span>
+            <span>26년 7월 30일~26년 8월 29일</span>
+          </div>
+          <h2 class="survey-title">2026 Vol.2(7월호)는<br class="mobile-br"> 어떠셨나요?</h2>
+          <p class="survey-desc">추첨을 통해 30분께 올리브영 1만원 권을 드립니다.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJHREj_mzdTz3hYM5_Lz6Gd1v66R3t_eXEUW8CM8TYfzVmJg/viewform?usp=publish-editor" target="_blank" class="survey-link">만족도 조사 바로가기</a>
+        </div>
+        <div class="survey-visual">
+          <img src="./img/assets/survey-gift.png" alt="올리브영 1만원권" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 아카이빙 -->
+  <section class="archive-section">
+    <div class="archive-inner">
+      <h2 class="archive-title">놓친 인사이트가 있다면</h2>
+      <p class="archive-desc">
+        이전 콘텐츠에서 다룬 방송영상·OTT<br class="mobile-br">산업 이슈와 주요 흐름을 확인해보세요.
+      </p>
+
+      <a href="https://www.kocca.kr/trendott/2026/vol01/index.html" class="archive-button">이전 콘텐츠 보기</a>
+
+      <a href="https://www.kocca.kr/kocca/trendott/list.do?menuNo=205122" class="archive-link">전체보기</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- 상단: 로고와 설명 -->
+      <div class="footer-top-wrap">
+        <div class="footer-top">
+
+          <div class="footer-logo-wrap">
+            <img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
+
+            <p class="footer-description">
+              &lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
+              <br class="footer-hidden" />
+              본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
+            </p>
+          </div>
+
+          <!-- 발행 정보 -->
+          <div class="footer-info">
+            <div class="footer-info-group">
+              <div>
+                <p>발행인</p>
+                <p>김윤지(한국콘텐츠진흥원 원장)</p>
+              </div>
+              <div>
+                <p>발행일</p>
+                <p>2026년 7월 30일</p>
+              </div>
+              <div>
+                <p>발행처</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원</p>
+                  <p>전라남도 나주시 교육길 35</p>
+                  <p>T. 1566-1114</p>
+                  <p>https://www.kocca.kr</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-info-group">
+              <div>
+                <p>기획·편집</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 정책연구본부 산업정책팀</p>
+                  <p>(주)컬쳐미디어랩</p>
+                </div>
+              </div>
+
+              <div>
+                <p>기획위원</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
+                  <p>장민지(경남대학교 미디어영상학과 조교수)</p>
+                  <p>이영주(서울과학기술대학교 IT정책전문대학원 융합미디어콘텐츠정책전공 교수)</p>
+                </div>
+              </div>
+
+              <div>
+                <p>ISSN</p>
+                <div>
+                  <p>3091-6771(online)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-buttons">
+          <a href="./download/2026_방송영상&OTT트렌드_Vol2_PDF_최종본.pdf" class="footer-button-outline"
+            download="2026_방송영상&OTT트렌드_Vol2_PDF">2026 Vol.2 (7월호) PDF 다운받기</a>
+          <a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
+            class="footer-button-filled">구독 신청하기</a>
+        </div>
+      </div>
+
+
+      <div class="footer-bottom">
+        <p>© 2026 Korea Creative Content Agency. All rights reserved.</p>
+        <img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const selectors = [
+        ".spotlight-item",
+        ".global-item",
+        ".people-item",
+        ".trend-item",
+        ".data-item"
+      ];
+      const items = document.querySelectorAll(selectors.join(","));
+
+      function checkSlideUp() {
+        const triggerBottom = window.innerHeight * 0.9;
+        items.forEach((item) => {
+          const rect = item.getBoundingClientRect();
+          if (rect.top < triggerBottom) {
+            item.classList.add("animate");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", checkSlideUp);
+      window.addEventListener("resize", checkSlideUp);
+      checkSlideUp();
+    });
+  </script>
+
+  <!-- 스크립트 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/note-tooltip.js"></script>
+  <script src="./js/swiper-init.js"></script>
+</body>
+
+</html>

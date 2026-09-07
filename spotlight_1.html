@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="방송영상·OTT 트렌드 2026 Vol.2" />
+  <meta property="og:image" content="./img/assets/meta.png">
+  <title>방송영상 · OTT 트렌드</title>
+
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/detail.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GH6ZRLY8VY');
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="./index.html" class="logo-wrap">
+        <img src="./img/assets/logo-white.png" alt="로고" class="logo" />
+      </a>
+
+      <div class="nav-right">
+        <div class="nav">
+          <a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
+          <a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
+          <a href="./index.html#people" class="nav-item">피플 인사이트</a>
+          <a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
+          <a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
+        </div>
+
+
+        <button type="button" id="menu-toggle" class="header-vol-info" aria-label="메뉴 열기">
+          <span class="vol-text">2026 Vol.2 (7월호)</span>
+
+          <span class="hamburger" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Fullscreen Mobile Modal -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="menu-header">
+        <p class="menu-title">메뉴</p>
+        <div class="menu-right">
+          <div class="vol-info">2026 Vol.2 (7월호)</div>
+          <button type="button" id="menu-close">
+            <img src="./img/assets/close.png" alt="닫기" class="close-btn" />
+          </button>
+        </div>
+      </div>
+      <div id="menu-content" class="menu-content"></div>
+    </div>
+  </header>
+
+  <!-- Detail -->
+  <div>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <!-- 배너 영역 -->
+    <div class="spotlight-banner" style="background-image: url('./img/manuscript1/thum.png');">
+      <div class="banner-overlay"></div>
+      <div class="banner-inner">
+        <div class="banner-meta">
+          <p class="banner-number">스포트라이트 1</p>
+          <p class="banner-theme">숏드라마, 트렌드와 비즈니스 전략 사이에서</p>
+        </div>
+        <p class="banner-title">
+          커지는 숏드라마 시장, 한국의 자리는 어디인가
+        </p>
+      </div>
+    </div>
+
+    <!-- 본문 영역 -->
+    <div>
+
+      <!-- 리드 문단 -->
+      <div class="lead-section">
+        <div class="lead-container">
+          <p class="lead-text"><span class="quotes">“</span>숏드라마 시장이 빠르게 성장하고 있다. 한국에서도 콘텐츠 소비가 증가하고 있고, 국내 제작 작품들이
+            늘어나면서 유의미한 성과도 도출되고 있다. 다만 숏드라마는 중국이 선도하며 선점한 영역이라 한국은 후발주자로서 여러 약점을 갖는다. 이 글은 숏드라마를 둘러싼 이러한 비대칭한 시장 상황을
+            살펴보고, 후발주자로서 한국의 전략에 대해 살펴보고자 한다.<span class="quotes">”</span></p>
+          <p class="lead-author">글. 이성민(한국방송통신대학교 미디어영상학과 교수)</p>
+        </div>
+      </div>
+
+      <!-- 메인 -->
+      <div class="main-content">
+
+        <!-- Section 1 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">
+                글로벌 숏드라마 시장의 성장과 국내 사업자들의 도전
+              </div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              숏드라마에 대한 시장의 관심이 높아지고 있다. 콘텐츠 소비 유형으로서 숏폼 소비는 매우 활발하다. 한국콘텐츠진흥원의 &lt;2025 콘텐츠 이용행태조사&gt;에 따르면 숏폼 콘텐츠 이용률은 응답자의 58.6%에 달한다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="한국콘텐츠진흥원(2025). &lt;2025 콘텐츠 이용행태조사&gt;."
+                aria-label="1번 주석 보기">
+                <sup>1)</sup>
+              </button>
+
+              이 중에서 ‘숏드라마’ 이용률은 전체의 13.5%로 아직은 소수이지만, 20대의 숏드라마 이용비율이 27.0%로 젊은 세대를 중심으로 숏드라마에 대한 관심이 확산되고 있음을 확인할 수 있다.<br><br>
+
+              시장의 성장성에 대해 긍정적으로 분석한 분석들도 다수 존재한다. 카카오벤처스는 2024년 국내 숏드라마 시장을 약 6,500억 원 규모로 추산한 바 있고,
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="카카오벤처스(2024.5.30). 그냥 숏폼 말고, ‘숏폼 드라마 시장’의 성공 전략. 카카오벤처스 블로그."
+                data-url="https://www.kakao.vc/blog/short-form-drama-strategy"
+                aria-label="2번 주석 보기">
+                <sup>2)</sup>
+              </button>
+
+              딜로이트는 글로벌 숏드라마의 인앱 수익이 2025년 38억 달러에서 2026년 78억 달러로 늘어날 것으로 전망했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Deloitte(2025). Tiny episodes, massive appeal: Short-form serials are gaining viewers and empowering independent studios. &lt;TMT Predictions 2026&gt;."
+                data-url="https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/short-form-video-series.html"
+                aria-label="3번 주석 보기">
+                <sup>3)</sup>
+              </button>
+
+              국내에서 만든 작품도 존재감을 키우고 있다. 영화 연출 경력을 지닌 스타 감독들이 국내 플랫폼을 통해 선보이는 콘텐츠는 로맨스를 넘어 스릴러, 범죄물에 이르기까지 그 장르를 넓혀가고 있다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="PD저널(2026.3.3). 숏폼 드라마로 향하는 스타 감독·배우들."
+                data-url="https://www.pdjournal.com/news/articleView.html?idxno=81152"
+                aria-label="4번 주석 보기">
+                <sup>4)</sup>
+              </button>
+
+              국내 제작사가 해외 플랫폼의 전 세계 차트 1위에 오르는 사례도 이어지고 있다. KT스튜디오지니의 〈청소부의 두 번째 결혼〉과 〈자만추 클럽하우스〉는 각각 드라마박스와 릴숏에서 1위를 기록하는 등 성과가 가시화되고 있다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="경향신문(2026.3.18). &quot;1분&quot;에 담긴 위기·절정·결말…충무로 감독들도 뛰어든 &quot;숏드라마&quot; 한국에 뿌리내릴 수 있을까."
+                data-url="https://www.khan.co.kr/article/202603171142001"
+                aria-label="5번 주석 보기">
+                <sup>5)</sup>
+              </button><br><br>
+
+              한국 숏드라마의 성과는 환영할 일이지만, 전체 산업을 조망해보면 마냥 기뻐하기는 어려운 것이 현실이다. 숏드라마 시장은 중국이 선도하고 있다. 파이낸셜타임스가 센서타워 집계를 인용해 보도한 바에 따르면, 미국 시장의 상위권을 차지한 마이크로드라마 앱 네 곳이 모두 중국 자본 기반이고, 2025년 이 부문 인앱 매출은 9억 6,600만 달러로 2022년의 40배 넘게 늘어났다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Financial Times(2026.4.6). Chinese micro-dramas target US with familiar tropes for phone audience."
+                data-url="https://www.ft.com/content/ebb918f9-3ac3-4085-8f5e-1b6d536befd6"
+                aria-label="6번 주석 보기">
+                <sup>6)</sup>
+              </button>
+
+              릴숏과 드라마박스 두 앱이 전 세계 숏드라마 인앱결제 매출의 약 70%를 차지한다는 점은,
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Filmustage Blog(2026). Short Drama Apps Compared: ReelShort vs DramaBox in 2026."
+                data-url="https://filmustage.com/blog/short-drama-apps-compared-reelshort-vs-dramabox-in-2026"
+                aria-label="7번 주석 보기">
+                <sup>7)</sup>
+              </button>
+
+              플랫폼 측면에서 이미 우리가 파고 들어갈 수 있는 틈을 찾기 쉽지 않다는 것을 보여준다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">
+                트래픽 마케팅과 검증된 IP 기반의 품질 경쟁으로 승부
+              </div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              시장의 성장과 더불어 눈에 띄는 것은 국내에서도 조금씩 숏드라마의 가시성이 높아지고 있다는 점이다. 여기엔 치열한 플랫폼 경쟁의 결과로 흘러나온 콘텐츠가 한몫하고 있다. 유튜브에는 드라마박스와 스타더스트TV 같은 해외 플랫폼이 직접 운영하는 한국어 채널이 있는데, 명장면부터 결말까지 이어지는 하이라이트 영상으로 앱 다운로드를 유도한다. 국내에서 만든 숏드라마를 다루는 영상 중에도 ‘하이라이트’와 ‘본편 내용’으로 나눠 상당한 분량을 그대로 얹고, 앱 딥링크와 고유 검색 코드를 남겨두는 사례가 발견된다. 설치나 검색으로 이어지면 채널 운영자에게 정산이 돌아가는 제휴 구조로 보인다. 완결작을 통째로 올리고 제목만 현지화해 검색을 피하는 채널도 다수 발견된다. 공식 채널의 하이라이트 마케팅과 유사 채널, 제휴 코드를 매개로 한 트래픽 대행 등이 겹치면서 숏드라마는 유료 결제라는 허들을 넘어 많은 사람들에게 노출 기회를 확대해나가고 있다.<br><br>
+
+              숏드라마는 양이 쌓이며 질적 성장으로 이어지는 선순환의 모습을 보여주고 있다. 특히 눈에 띄는 방식은 검증된 이야기를 예산과 캐스팅을 높여 다시 만드는 순차적 리메이크다. 중국 플랫폼들이 미국 시장을 겨냥해 활용한 흥행 공식은 다름 아닌, 중국에서 이미 검증된 히트작을 번역하거나 각색하는 것이다. 국내에서도 배우 이상엽이 중국 원작을 리메이크한 〈폭풍같은 결혼생활〉과 〈상속녀의 귀환〉에 잇달아 출연한 사례가 있다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="PD저널(2026.3.3). 숏폼 드라마로 향하는 스타 감독·배우들."
+                data-url="https://www.pdjournal.com/news/articleView.html?idxno=81152"
+                aria-label="8번 주석 보기">
+                <sup>8)</sup>
+              </button>
+
+              저예산으로 이야기의 반응을 먼저 확인하고, 반응이 좋으면 인지도 있는 배우와 더 큰 제작비를 투자해 다시 만드는 식으로 IP의 가치를 단계적으로 키우는 방식이다. 2026년도의 주요 신작들을 살펴보면 배우의 인지도는 물론 촬영과 조명 등 프로덕션 품질 측면에서도 보다 높은 투자가 이뤄진 작품들을 확인할 수 있다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">
+                지역 인프라와 AI 기술의 결합: 중국 숏드라마 성장의 두 축
+              </div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              숏드라마 시장을 선점한 중국은 지역 경제와 연결된 인프라를 통한 선순환을 보여주고 있다. 시안(西安) 지역은 중국 전국 마이크로드라마의 60% 이상을 만들어내는 제작 거점이고
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="新華網(신화망)(2025.10.15). &quot;微短劇之都&quot; 西安."
+                data-url="https://www.news.cn/politics/20251015/f2f5fea14fe049379319e83df65f5462/c.html"
+                aria-label="9번 주석 보기">
+                <sup>9)</sup>
+              </button>,
+
+              정저우(郑州) 지역은 제작사 820여 곳에 종사자 3만여 명을 거느린 또 다른 거점이다
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="21世纪经济报道(2025.9.22). 西安和郑州，争当微短剧&quot;霸总&quot;."
+                data-url="https://m.21jingji.com/article/20250922/herald/ebf4f5d552e8bf6e72414de023ba64c7.html"
+                aria-label="10번 주석 보기">
+                <sup>10)</sup>
+              </button>.
+
+              지방정부가 촬영장 비용을 감면하고 미분양 건물을 세트로 되살리며 이 저변을 떠받친다. 배우 자원도 풍부하다. 무명 신인이 주연을 맡을 수 있는 장이 넓게 열려 있고, 흥행에 성공한 작품은 다시 인지도 있는 배우를 불러들이는 순환을 만든다. 해외 진출과 커머스, PPL로 이어지는 전략도 다변화되고 있다.<br><br>
+
+              여기에 인공지능을 활용한 콘텐츠가 크게 늘어나며 시장을 흔들고 있다. 지난 1월 한 달에만 하루 평균 470편 이상의 AI 마이크로드라마가 공개됐고, 3월에는 틱톡의 중국 서비스인 더우인 한 곳에만 AI 제작 콘텐츠가 5만여 편 증가했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="MIT Technology Review(2026.5.15). How Chinese short dramas became AI content machines."
+                data-url="https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/"
+                aria-label="11번 주석 보기">
+                <sup>11)</sup>
+              </button>
+
+              데이터아이(DataEye) 집계로 인기 차트 100위권에서 AI 작품이 차지하는 비중은 1년 전 7%에서 올해 38%로 뛰었다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="The Next Web(2026.5.8). China’s $16.5B micro-drama industry becomes the world’s first mass application of AI-generated video."
+                data-url="https://thenextweb.com/news/china-micro-drama-ai-state-funding"
+                aria-label="12번 주석 보기">
+                <sup>12)</sup>
+              </button>
+
+              AI는 콘텐츠 유통에서 자동 번역과 더빙 등에도 적극적으로 활용된다. 더 많은 실험과 더 넓은 노출을 위해 인공지능이 적극적으로 활용되는 양상이다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">
+                후발주자의 한계를 넘어설 ‘틈새 시장’을 모색하는 국내 사업자
+              </div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              다행인 것은, 한국의 창작자와 사업자들의 적응도 여러 방향에서 발견된다는 점이다. 국내 플랫폼과 시장의 성장세도 확인된다. 센서타워 집계로 올해 1월 국내 숏드라마 앱 매출은 월 600만 달러를 넘기며 세계 4위 수준을 기록했고, 스푼랩스의 비글루도 국내 매출 3위, 코베타 보도 기준 글로벌 앱 매출 순위 14위에 올랐다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="한영주(2026.7.3). 숏폼 드라마 부상과 생성형 AI. 월간 방송과기술."
+                data-url="http://tech.kobeta.com/숏폼-드라마-부상과-생성형-ai/"
+                aria-label="13번 주석 보기">
+                <sup>13)</sup>
+              </button>
+
+              제작뿐 아니라 인력 양성으로도 대응이 확산되고 있다. 비글루는 대본 심사와 면접을 거쳐 예비 작가를 선발하는 ‘라이터스룸’ 워크숍을 운영하며 IP 공동 개발을 시도했고.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="뉴스1(2025.3.10). 숏폼 드라마 작가 육성…스푼랩스, 비글루 라이터스룸 성료."
+                data-url="https://www.news1.kr/industry/sb-founded/5714026"
+                aria-label="14번 주석 보기">
+                <sup>14)</sup>
+              </button>
+
+              ENA는 신인·기성 감독 33명이 겨루는 숏드라마 감독 서바이벌 〈디렉터스 아레나〉를 편성해 최종 라운드 진출작을 레진스낵 정식 편성으로 연결했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="맥스무비(2026.6.10). ‘디렉터스 아레나’, 해외 시장 더 넓힌다… A+E와 글로벌 유통 확대."
+                data-url="https://www.maxmovie.com/news/445444"
+                aria-label="15번 주석 보기">
+                <sup>15)</sup>
+              </button>
+
+              이 프로그램은 북미와 유럽, 일본, 대만 등지로 유통을 넓히는 계약도 함께 성사시킨 바 있다. 지난 4월, 프리랜서 드라마 PD 67명이 모여 창립한 한국드라마PD협회에서도 중국 숏폼 콘텐츠의 국내 시장 점유율 확대와 내수용 드라마 제작 기반 약화에 대한 대응 측면에서 숏드라마의 가능성을 검토하기 시작했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="중앙일보(2026.4.12). &quot;숏폼·AI 등장하는데 한국 드라마 방향 못 잡아&quot;…한국드라마PD협회 창립."
+                data-url="https://www.joongang.co.kr/article/25419460"
+                aria-label="16번 주석 보기">
+                <sup>16)</sup>
+              </button><br><br>
+
+              물론 한국 숏드라마 산업의 시장성에 대해선 여전히 고민이 필요하다. 숏드라마의 과금 구조는 웹툰의 유통 방식과 비슷하다. 초반 몇 편을 무료로 노출해 이용자를 모은 뒤, 갈등이 최고조에 이르는 지점에서 편당 소액 결제를 유도하고, 전체 시리즈를 완주하면 누적 결제액이 3만~5만 원을 넘어서는 구조다. 그러나 이 구조가 실제 이익으로 이어지기에는 넘어야 할 산이 많다. 미디어 파트너스 아시아(MPA) 집계를 인용한 필무스테이지(Filmustage) 분석에 따르면, 2024년 기준 매출과 순이익을 함께 공개하며 수익성을 보여준 플랫폼은 드라마박스(매출 3억 2,300만 달러, 순이익 1,000만 달러)가 사실상 유일하고, 매출 규모가 더 큰 릴숏조차 아직 적자를 벗어나지 못했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="Filmustage Blog(2026). Short Drama Apps Compared: ReelShort vs DramaBox in 2026."
+                data-url="https://filmustage.com/blog/short-drama-apps-compared-reelshort-vs-dramabox-in-2026"
+                aria-label="17번 주석 보기">
+                <sup>17)</sup>
+              </button>
+
+              국내 시장도 아직 초기 도입기의 특성을 보여준다. 한국콘텐츠진흥원 조사에서 숏드라마 시청 경험자의 92.3%가 유튜브 같은 범용 플랫폼에서 작품을 접했고, 전용 플랫폼에서의 유료 결제 경험은 5.3%에 그쳤다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="한국콘텐츠진흥원(2025). &lt;2025 콘텐츠 이용행태조사&gt;."
+                aria-label="18번 주석 보기">
+                <sup>18)</sup>
+              </button>
+
+              한국은 후발주자로서 플랫폼의 시장 확대와 콘텐츠 제작의 경험 축적을 모두 필요로 한다는 점에서, 단기간에 수익 관점의 성과를 기대하기 어렵다는 한계를 갖는다.<br><br>
+
+              후발주자로서의 한계는 인프라와 생태계 측면에서도 발견할 수 있다. 선발국인 중국은 쌓아둔 콘텐츠와 더불어 이미 효율화된 제작 기반을 갖추고 있다. 시안과 정저우의 촬영 인프라, 풍부한 배우 자원, 검증된 이야기를 반복해서 재활용하는 리메이크 구조, AI를 적극적으로 활용한 콘텐츠 제작과 해외 유통 전략 등은 선발주자로서 중국이 갖춘 해자(Moat)로 기능한다. 한국이 롱폼 드라마 분야에서 서사의 완성도나 캐릭터 구축, 제작 품질 등의 측면에서 경쟁력을 갖추었다 하더라도 이를 숏폼 시장으로 온전히 전이할 수 있을지에 대해선 우려가 남는다.<br><br>
+
+              다만 숏드라마 시장의 플레이어가 다변화되는 흐름은 여전히 한국의 자리를 발굴해낼 가능성을 기대하게 한다. 일본의 숏드라마 서비스 ‘범프(BUMP)’는 첫 해외 현지 제작 프로젝트의 상대로 중국이 아닌 한국의 제작사를 택해 두 편의 오리지널 작품을 공동 제작했다.
+
+              <button
+                type="button"
+                class="note-link"
+                data-note="오뉴스(2025.6.20). &quot;日 숏드라마 앱 ‘BUMP’, 한국 현지 오리지널 콘텐츠 전격 공개&quot;."
+                data-url="https://www.ohnews.co.kr/news/articleView.html?idxno=24224"
+                aria-label="19번 주석 보기">
+                <sup>19)</sup>
+              </button>
+
+              단순 번역이 아니라 현지 정서를 반영해 다시 짜는 ‘컬처라이즈(Culturize)’ 방식으로, 한국과 일본, 미국, 대만 등 100여 개국에 동시 공개했다. 한국에서도 가로 영상 기반의 웹드라마로 성장한 와이낫미디어 같은 주체들이 세로형으로 영역을 넓히고 있다는 점에서, ‘숏드라마’라는 시장 자체가 분화하며 새로운 협업의 경로가 열릴 가능성도 무시하기 어렵다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
+
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">K-숏드라마 생태계 선순환 구축을 위한 정책과제</div>
+            </div>
+          </div>
+
+          <div class="section-body">
+            <p class="paragraph">
+              이 부분에서 정책의 역할을 고민하게 된다. 제작지원을 통해 초기의 실험적 진입을 활성화하는 것도 의미가 있지만, 자원과 물량 측면에서 한계가 있는 후발주자의 시장 진입 전략으로서의 적절성에
+              대해선 조금 더 면밀한 검토가 필요하다. 자칫 잘못하면 수익성이 낮은 영역에서 일부 시장에 한정된 산업으로만 자리 잡을 우려도 있다. 초기 단계부터 IP 확장을 고려한 전략적 접근과 국제
+              공동제작을 고려한 역량 강화, 그리고 숏드라마 시장을 통해 전체 영상 콘텐츠 생태계의 선순환이 가능하도록 정책의 틀을 고민할 필요가 있다. 산업의 규모와 성과를 가늠할 통계 등 산업 현황에
+              대한 조사도 시급하다.<br><br>
+
+              영상 시장의 재편이라는 관점에서 보면 숏폼 중심의 콘텐츠 전환은 미룰 수 있는 대응이 아니다. 상대적으로 적은 제작비로 접근할 수 있는 시장이라는 점, 짧은 영상이 주목의 시작점으로
+              기능한다는 점에서 숏드라마는 한국 영상 시장이 마주한 한계를 넘어설 대안이 될 가능성을 지닌다. 영상 시장의 재편은 OTT를 통한 롱폼의 혁신에 이어, 이제 숏폼의 혁신으로 이어지고 있다.
+              이 흐름의 끝에서 재편된 생태계 안에 한국이 어떤 위상을 지킬 수 있을지는 아직 답이 정해지지 않았다. 모바일 게임 시장에서 중국 기업에 주도권을 내주었던 경험이 영상이라는 생태계에서 다시
+              반복될지, 아니면 다른 경로를 찾을지는 지금부터의 대응에 달려 있다.
+            </p>
+          </div>
+        </section>
+
+        <!-- Reference List Section -->
+        <div class="reference-list">
+          <!-- 제목 -->
+          <div class="reference-title">참고문헌</div>
+
+          <!-- 리스트 -->
+          <ol class="reference-items hanging-indent">
+            <li>
+              <a href="https://www.khan.co.kr/article/202603171142001" target="_blank" rel="noopener noreferrer">
+                경향신문(2026.3.18). <span class="bodyQuotes">“</span>1분<span class="bodyQuotes">”</span>에 담긴 위기·절정·결말…충무로
+                감독들도 뛰어든 <span class="bodyQuotes">“</span>숏드라마<span class="bodyQuotes">”</span> 한국에 뿌리내릴 수 있을까.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.news1.kr/industry/sb-founded/5714026" target="_blank" rel="noopener noreferrer">
+                뉴스1(2025.3.10). 숏폼 드라마 작가 육성…스푼랩스, 비글루 라이터스룸 성료.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.maxmovie.com/news/445444" target="_blank" rel="noopener noreferrer">
+                맥스무비(2026.6.10). <span class="bodyQuotes">‘</span>디렉터스 아레나<span class="bodyQuotes">’</span>, 해외 시장 더
+                넓힌다… A+E와 글로벌 유통 확대.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.ohnews.co.kr/news/articleView.html?idxno=24224" target="_blank"
+                rel="noopener noreferrer">
+                오뉴스(2025.6.20). 日 숏드라마 앱 <span class="bodyQuotes">‘</span>BUMP<span class="bodyQuotes">’</span>, 한국 현지
+                오리지널 콘텐츠 전격 공개. &lt;오뉴스&gt;.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.joongang.co.kr/article/25419460" target="_blank" rel="noopener noreferrer">
+                중앙일보(2026.4.12). <span class="bodyQuotes">“</span>숏폼·AI 등장하는데 한국 드라마 방향 못 잡아<span
+                  class="bodyQuotes">”</span>…한국드라마PD협회 창립.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.kakao.vc/blog/short-form-drama-strategy" target="_blank" rel="noopener noreferrer">
+                카카오벤처스(2024.5.30). 그냥 숏폼 말고, <span class="bodyQuotes">‘</span>숏폼 드라마 시장<span
+                  class="bodyQuotes">’</span>의 성공 전략.
+              </a>
+            </li>
+
+            <li>
+              한국콘텐츠진흥원(2025). &lt;2025 콘텐츠 이용행태조사&gt;. 한국콘텐츠진흥원.
+            </li>
+
+            <li>
+              <a href="http://tech.kobeta.com/숏폼-드라마-부상과-생성형-ai/" target="_blank" rel="noopener noreferrer">
+                한영주(2026.7.3). 숏폼 드라마 부상과 생성형 AI. &lt;방송과기술&gt;.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.pdjournal.com/news/articleView.html?idxno=81152" target="_blank"
+                rel="noopener noreferrer">
+                PD저널(2026.3.3). 숏폼 드라마로 향하는 스타 감독·배우들. &lt;PD저널&gt;.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://m.21jingji.com/article/20250922/herald/ebf4f5d552e8bf6e72414de023ba64c7.html"
+                target="_blank" rel="noopener noreferrer">
+                21世纪经济报道(2025.9.22). 西安和郑州，争当微短剧<span class="bodyQuotes">“</span>霸总<span class="bodyQuotes">”</span>.
+                &lt;21世纪经济报道&gt;.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.news.cn/politics/20251015/f2f5fea14fe049379319e83df65f5462/c.html" target="_blank"
+                rel="noopener noreferrer">
+                新華網(신화망)(2025.10.15). <span class="bodyQuotes">“</span>微短劇之都<span class="bodyQuotes">”</span> 西安.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/short-form-video-series.html"
+                target="_blank" rel="noopener noreferrer">
+                Deloitte(2025). Tiny episodes, massive appeal: Short-form serials are gaining viewers and empowering
+                independent studios. &lt;TMT Predictions 2026&gt;.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://filmustage.com/blog/short-drama-apps-compared-reelshort-vs-dramabox-in-2026"
+                target="_blank" rel="noopener noreferrer">
+                Filmustage Blog(2026). Short drama apps compared: ReelShort vs DramaBox in 2026.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.ft.com/content/ebb918f9-3ac3-4085-8f5e-1b6d536befd6" target="_blank"
+                rel="noopener noreferrer">
+                Financial Times(2026.4.6). Chinese micro-dramas target US with familiar tropes for phone audience.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai" target="_blank"
+                rel="noopener noreferrer">
+                MIT Technology Review(2026.5.15). How Chinese short dramas became AI content machines.
+              </a>
+            </li>
+
+            <li>
+              <a href="https://thenextweb.com/news/china-micro-drama-ai-state-funding" target="_blank"
+                rel="noopener noreferrer">
+                The Next Web(2026.5.8). China<span class="bodyQuotes">’</span>s $16.5B micro-drama industry becomes the
+                world<span class="bodyQuotes">’</span>s first mass application of AI-generated video.
+              </a>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Author Profile -->
+        <div>
+          <div class="author-profile">
+            <img src="./img/manuscript1/profile.jpg" alt="이성민" class="author-img" />
+            <div class="author-info">
+              <p class="author-name">
+                이성민
+                <br class="mobile-br" />
+                <span class="author-affiliation">(한국방송통신대학교 미디어영상학과 교수)</span>
+              </p>
+              <p class="author-description">
+                서울대학교 언론정보학과에서 박사학위를 받았으며, 한국방송통신대학교 디지털미디어센터 원장, 대통령직속 대중문화교류위원회 정책분과 위원 등을 맡고 있다. 한국문화관광연구원 부연구위원을
+                역임했다. 주요 저서로 『모든 것이 콘텐츠다』(2025), 『인공지능과 콘텐츠 비즈니스』(2025), 『영상문화콘텐츠산업론 』 (공저, 2022), 『오징어 게임과 콘텐츠 혁명』 (공저,
+                2022) 등이 있다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post Navigator -->
+      <div class="post-navigator">
+        <div class="first-nav"></div>
+
+        <div class="post-nav-div"></div>
+
+        <a href="./spotlight_2.html" class="post-nav next">
+          <div class="post-nav-header">
+            <p>다음 글</p>
+            <img src="./img/assets/arrow.png" alt="화살표" class="arrow rotate" />
+          </div>
+          <span class="post-nav-title">AI로 확장하는 팬덤 IP<br class="pc-br"> &lt;와이낫미디어&gt;, 이민석 대표</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- 상단: 로고와 설명 -->
+      <div class="footer-top-wrap">
+        <div class="footer-top">
+
+          <div class="footer-logo-wrap">
+            <img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
+
+            <p class="footer-description">
+              &lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
+              <br class="footer-hidden" />
+              본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
+            </p>
+          </div>
+
+          <!-- 발행 정보 -->
+          <div class="footer-info">
+            <div class="footer-info-group">
+              <div>
+                <p>발행인</p>
+                <p>김윤지(한국콘텐츠진흥원 원장)</p>
+              </div>
+              <div>
+                <p>발행일</p>
+                <p>2026년 7월 30일</p>
+              </div>
+              <div>
+                <p>발행처</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원</p>
+                  <p>전라남도 나주시 교육길 35</p>
+                  <p>T. 1566-1114</p>
+                  <p>https://www.kocca.kr</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-info-group">
+              <div>
+                <p>기획·편집</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 정책연구본부 산업정책팀</p>
+                  <p>(주)컬쳐미디어랩</p>
+                </div>
+              </div>
+
+              <div>
+                <p>기획위원</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
+                  <p>장민지(경남대학교 미디어영상학과 조교수)</p>
+                  <p>이영주(서울과학기술대학교 IT정책전문대학원 융합미디어콘텐츠정책전공 교수)</p>
+                </div>
+              </div>
+
+              <div>
+                <p>ISSN</p>
+                <div>
+                  <p>3091-6771(online)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-buttons">
+          <a href="./download/2026_방송영상&OTT트렌드_Vol2_PDF_최종본.pdf" class="footer-button-outline"
+            download="2026_방송영상&OTT트렌드_Vol2_PDF">2026 Vol.2 (7월호) PDF 다운받기</a>
+          <a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
+            class="footer-button-filled">구독 신청하기</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Korea Creative Content Agency. All rights reserved.</p>
+        <img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
+      </div>
+    </div>
+  </footer>
+
+  <!-- 상/하단 이동 버튼 -->
+  <div class="page-anchor-buttons">
+    <button type="button" class="page-anchor-btn page-top-btn" onclick="scrollToTop()" aria-label="상단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
+
+    <button type="button" class="page-anchor-btn page-bottom-btn" onclick="scrollToBottom()" aria-label="하단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
+  </div>
+
+  <!-- 하단 플로팅 바 -->
+  <nav class="article-floating-nav" aria-label="게시글 이동">
+    <div class="article-floating-nav-inner">
+      <a href="#" class="floating-nav-btn prev is-disabled" aria-disabled="true" tabindex="-1">
+        <img src="./img/assets/arrow.png" alt="" width="24" height="24">
+        <span>이전글</span>
+      </a>
+
+      <div class="floating-issue-info">
+        <span class="issue-label">2026 Vol.2 (7월호)</span>
+      </div>
+
+      <a href="./spotlight_2.html" class="floating-nav-btn next">
+        <span>다음글</span>
+        <img class="rotate" src="./img/assets/arrow.png" alt="" width="24" height="24">
+      </a>
+    </div>
+  </nav>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/note-tooltip.js"></script>
+</body>
+
+</html>
