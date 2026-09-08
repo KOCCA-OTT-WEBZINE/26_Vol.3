@@ -27,11 +27,11 @@ const spotlightItem = {
 
 const trendItem = {
   0: {
-    title: "올드 IP의 귀환은 무얼 말해주는 걸까<br>: 올드 IP의 귀환을 둘러싼 콘텐츠 산업의 변화들",
+    title: "작품 뒤의 작품<br>: OTT의 새로운 상품, 비하인드 다큐멘터리",
     authors: [
       {
-        name: "정덕현",
-        affiliation: "대중문화평론가",
+        name: "장민지",
+        affiliation: "경남대학교 미디어영상학과 부교수",
       },
     ],
   },

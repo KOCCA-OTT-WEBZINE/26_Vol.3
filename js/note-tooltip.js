@@ -80,31 +80,31 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	function renderTooltip(button) {
-    const noteContent = button.dataset.note?.trim() || "";
-    const noteUrl = button.dataset.url?.trim() || "";
+		const noteContent = button.dataset.note?.trim() || "";
+		const noteUrl = button.dataset.url?.trim() || "";
 
-    tooltip.replaceChildren();
+		tooltip.replaceChildren();
 
-    const contentElement = noteUrl
-      ? document.createElement("a")
-      : document.createElement("p");
+		const contentElement = noteUrl
+			? document.createElement("a")
+			: document.createElement("p");
 
-    contentElement.className = "note-tooltip-content";
-    contentElement.textContent = noteContent;
+		contentElement.className = "note-tooltip-content";
+		contentElement.innerHTML = noteContent;
 
-    if (noteUrl) {
-      contentElement.classList.add("is-link");
-      contentElement.href = noteUrl;
-      contentElement.target = "_blank";
-      contentElement.rel = "noopener noreferrer";
-      contentElement.setAttribute(
-        "aria-label",
-        "주석 원문 새 창으로 열기"
-      );
-    }
+		if (noteUrl) {
+			contentElement.classList.add("is-link");
+			contentElement.href = noteUrl;
+			contentElement.target = "_blank";
+			contentElement.rel = "noopener noreferrer";
+			contentElement.setAttribute(
+				"aria-label",
+				"주석 원문 새 창으로 열기"
+			);
+		}
 
-    tooltip.appendChild(contentElement);
-  }
+		tooltip.appendChild(contentElement);
+	}
 
 	function showTooltip(button) {
 		window.clearTimeout(showTimer);

@@ -1,12 +1,12 @@
 :root {
   /* Primary */
-  --primary-100: #FFF1EF;
-  --primary-200: #FFD9D4;
-  --primary-300: #FFBBB3;
-  --primary-400: #F8958B;
-  --primary-500: #EF6F6C;
-  --primary-600: #D95C5E;
-  --primary-700: #B34755;
+  --primary-100: #F1E9DC;
+  --primary-200: #E1D0B4;
+  --primary-300: #CFB486;
+  --primary-400: #AE8753;
+  --primary-500: #8A6028;
+  --primary-600: #704E21;
+  --primary-700: #573C19;
 
   /* Grayscale */
   --gray-100: #f8f9fa;
@@ -16,24 +16,6 @@
   --gray-500: #999999;
   --gray-600: #767676;
   --gray-700: #222222;
-
-  /* Accent */
-  --accent-100: #f6f3ff;
-  --accent-200: #ede7ff;
-  --accent-300: #d8ccff;
-  --accent-400: #bfaaff;
-  --accent-500: #a78bfa;
-  --accent-600: #8b5cf6;
-  --accent-700: #6d3fe0;
-
-  /* Point */
-  --point-100: #fff1f1;
-  --point-200: #ffe1e1;
-  --point-300: #ffc4c4;
-  --point-400: #ffa0a0;
-  --point-500: #ff7a7a;
-  --point-600: #f05252;
-  --point-700: #c83e3e;
 
   /* font size */
   --title-important: 40px;

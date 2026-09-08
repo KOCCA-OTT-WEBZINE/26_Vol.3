@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "트렌드 하이라이트",
       theme: "",
-      item: "올드 IP의 귀환은 무얼 말해주는 걸까<br>: 올드 IP의 귀환을 둘러싼 콘텐츠 산업의 변화들",
+      item: "작품 뒤의 작품<br>: OTT의 새로운 상품, 비하인드 다큐멘터리",
       img: "./img/manuscript7/banner.png",
       imgMobile: "./img/manuscript7/banner-m.png",
       bgPosition: "right center",
