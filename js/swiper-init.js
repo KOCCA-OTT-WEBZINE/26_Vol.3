@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const contents = [
     {
       sectionName: "스포트라이트",
-      theme: "숏드라마, 트렌드와 비즈니스 전략 사이에서",
+      theme: "효율화의 시대, 제작 현장의 새로운 도전들",
       item: "커지는 숏드라마 시장, 한국의 자리는 어디인가",
       img: "./img/manuscript1/banner.png",
       imgMobile: "./img/manuscript1/banner-m.png",

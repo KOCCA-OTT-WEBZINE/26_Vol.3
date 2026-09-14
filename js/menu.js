@@ -9,7 +9,7 @@ const spotlightItem = {
     ],
   },
   1: {
-    title: "AI로 확장하는 팬덤 IP &lt;와이낫미디어&gt;, 이민석 대표",
+    title: "비용 효율 콘텐츠 시대, 우리는 지금 K-예능 시대에 산다!",
   },
   2: {
     title: "데이터와 AI로 숏드라마를 혁신하다 &lt;밤부네트워크&gt;, 정다빈 대표",
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const sectionDescription =
         path === "spotlight"
-          ? `<p id="menu-spotlight-subject">숏드라마, 트렌드와 비즈니스 전략 사이에서</p>`
+          ? `<p id="menu-spotlight-subject">효율화의 시대, 제작 현장의 새로운 도전들</p>`
           : "";
 
       section.innerHTML = `

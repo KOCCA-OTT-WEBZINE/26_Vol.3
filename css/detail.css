@@ -1632,13 +1632,15 @@ sup {
 	overflow-wrap: break-word;
 }
 
-.note-tooltip-content.is-link {
-	color: #202020;
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
-	text-underline-offset: 3px;
-	cursor: pointer;
+.note-tooltip-content.is-link,
+.note-tooltip-content .is-link {
+  color: #202020;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  cursor: pointer;
 }
+
 
 /* 주석 본문에만 밑줄 */
 .note-tooltip-content.is-link .note-tooltip-text {
