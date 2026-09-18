@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "데이터 포인트",
       theme: "",
-      item: "[2026년 2분기] 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향",
+      item: "[2026년 3분기] 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향",
       img: "./img/manuscript11/banner.png",
       imgMobile: "./img/manuscript11/banner-m.png",
       bgPosition: "right center",
