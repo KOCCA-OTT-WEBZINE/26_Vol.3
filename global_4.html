@@ -2,557 +2,557 @@
 <html lang="ko">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="방송영상·OTT 트렌드 2026 Vol.3" />
-	<meta property="og:image" content="./img/assets/meta.png">
-	<title>방송영상 · OTT 트렌드</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="방송영상·OTT 트렌드 2026 Vol.3" />
+  <meta property="og:image" content="./img/assets/meta.png">
+  <title>방송영상 · OTT 트렌드</title>
 
-	<link rel="stylesheet" href="./css/variables.css" />
-	<link rel="stylesheet" href="./css/main.css" />
-	<link rel="stylesheet" href="./css/detail.css" />
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/detail.css" />
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-GH6ZRLY8VY');
-	</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6ZRLY8VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GH6ZRLY8VY');
+  </script>
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
-	<link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/assets/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/assets/favicon.png" />
 
 
 </head>
 
 <body>
 
-	<!-- Header -->
-	<header class="header">
-		<div class="header-inner">
-			<a href="./index.html" class="logo-wrap">
-				<img src="./img/assets/logo-white.png" alt="로고" class="logo" />
-			</a>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="./index.html" class="logo-wrap">
+        <img src="./img/assets/logo-white.png" alt="로고" class="logo" />
+      </a>
 
-			<div class="nav-right">
-				<div class="nav">
-					<a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
-					<a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
-					<a href="./index.html#people" class="nav-item">피플 인사이트</a>
-					<a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
-					<a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
-				</div>
+      <div class="nav-right">
+        <div class="nav">
+          <a href="./index.html#spotlight" class="nav-item">스포트라이트</a>
+          <a href="./index.html#trend" class="nav-item">트렌드 하이라이트</a>
+          <a href="./index.html#people" class="nav-item">피플 인사이트</a>
+          <a href="./index.html#data-point" class="nav-item">데이터 포인트</a>
+          <a href="./index.html#global" class="nav-item">글로벌 마켓 리포트</a>
+        </div>
 
 
-				<button type="button" id="menu-toggle" class="header-vol-info" aria-label="메뉴 열기">
-					<span class="vol-text">2026 Vol.3 (9월호)</span>
+        <button type="button" id="menu-toggle" class="header-vol-info" aria-label="메뉴 열기">
+          <span class="vol-text">2026 Vol.3 (9월호)</span>
 
-					<span class="hamburger" aria-hidden="true">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-				</button>
-			</div>
-		</div>
+          <span class="hamburger" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
 
-		<!-- Fullscreen Mobile Modal -->
-		<div id="mobile-menu" class="mobile-menu">
-			<div class="menu-header">
-				<p class="menu-title">메뉴</p>
-				<div class="menu-right">
-					<div class="vol-info">2026 Vol.3 (9월호)</div>
-					<button type="button" id="menu-close">
-						<img src="./img/assets/close.png" alt="닫기" class="close-btn" />
-					</button>
-				</div>
-			</div>
-			<div id="menu-content" class="menu-content"></div>
-		</div>
-	</header>
+    <!-- Fullscreen Mobile Modal -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="menu-header">
+        <p class="menu-title">메뉴</p>
+        <div class="menu-right">
+          <div class="vol-info">2026 Vol.3 (9월호)</div>
+          <button type="button" id="menu-close">
+            <img src="./img/assets/close.png" alt="닫기" class="close-btn" />
+          </button>
+        </div>
+      </div>
+      <div id="menu-content" class="menu-content"></div>
+    </div>
+  </header>
 
-	<!-- Detail -->
-	<div>
-		<div id="progress-bar-container">
-			<div id="progress-bar"></div>
-		</div>
+  <!-- Detail -->
+  <div>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
 
-		<!-- 배너 영역 -->
-		<div class="global-market-banner">
-			<div class="global-market-banner-inner">
-				<div class="global-market-banner-header">
-					<p class="global-market-banner-eyebrow">Global Market Report</p>
-					<h1 class="global-market-banner-title">
-						글로벌 마켓 트렌드
-					</h1>
-				</div>
+    <!-- 배너 영역 -->
+    <div class="global-market-banner">
+      <div class="global-market-banner-inner">
+        <div class="global-market-banner-header">
+          <p class="global-market-banner-eyebrow">Global Market Report</p>
+          <h1 class="global-market-banner-title">
+            글로벌 마켓 트렌드
+          </h1>
+        </div>
 
-				<nav class="global-market-nav" aria-label="글로벌 마켓 지역 이동">
-					<a href="./global_1.html" class="global-market-nav-item">북미</a>
+        <nav class="global-market-nav" aria-label="글로벌 마켓 지역 이동">
+          <a href="./global_1.html" class="global-market-nav-item">북미</a>
 
-					<a href="./global_2.html" class="global-market-nav-item">
-						중남미
-					</a>
+          <a href="./global_2.html" class="global-market-nav-item">
+            중남미
+          </a>
 
-					<a href="./global_3.html" class="global-market-nav-item">
-						유럽
-					</a>
+          <a href="./global_3.html" class="global-market-nav-item">
+            유럽
+          </a>
 
-					<a href="./global_4.html" class="global-market-nav-item is-active">
-						아시아
-					</a>
+          <a href="./global_4.html" class="global-market-nav-item is-active">
+            아시아
+          </a>
 
-					<a href="./global_5.html" class="global-market-nav-item">
-						중동 ∙ 아프리카
-					</a>
+          <a href="./global_5.html" class="global-market-nav-item">
+            중동 ∙ 아프리카
+          </a>
 
-					<a href="./global_6.html" class="global-market-nav-item">
-						대양주
-					</a>
-				</nav>
-			</div>
-		</div>
+          <a href="./global_6.html" class="global-market-nav-item">
+            대양주
+          </a>
+        </nav>
+      </div>
+    </div>
 
-		<!-- 본문 -->
-		<div>
+    <!-- 본문 -->
+    <div>
 
-			<!-- 메인 -->
-			<div class="main-content">
+      <!-- 메인 -->
+      <div class="main-content">
 
-				<!-- 이슈 브리프 -->
-				<section class="section-block">
-					<div class="section-body">
-						<div class="issue-card-list">
+        <!-- 이슈 브리프 -->
+        <section class="section-block">
+          <div class="section-body">
+            <div class="issue-card-list">
 
-							<!-- 중국 -->
-							<article class="issue-card">
-								<div class="issue-card-label-wrap">
-									<p class="issue-card-label">중국</p>
-								</div>
+              <!-- 중국 -->
+              <article class="issue-card">
+                <div class="issue-card-label-wrap">
+                  <p class="issue-card-label">중국</p>
+                </div>
 
-								<h3 class="issue-card-title">중국 콘텐츠 산업의 AI 가속화와 숏드라마 시장 제도 정비 본격화</h3>
+                <h3 class="issue-card-title">중국 콘텐츠 산업의 AI 가속화와 숏드라마 시장 제도 정비 본격화</h3>
 
-								<div class="bullet-list-stack paragraph">
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>중국의 방송·미디어 관리감독 업무를 총괄하는 국가 기관인 광전총국이 중국 숏드라마 시장의 재정비를 위해 전면적으로 나섰다. 6월 1일부터 2개월간 숏드라마의 유해·저속
-											콘텐츠와 저작권 침해 문제를 집중 정비하는 한편, 6월 24일에는 ‘숏드라마 발전 관리 방법’을 공개하고 의견 수렴에 나섰다. 이처럼 광전총국이 전반적인 제도 정비에 나선
-											배경은 최근 숏드라마 인기와 함께 콘텐츠 품질 문제가 계속 불거지고 AI로 생성·제작된 콘텐츠가 기하급수적으로 늘어났기 때문이다.</p>
-									</div>
+                <div class="bullet-list-stack paragraph">
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>중국의 방송·미디어 관리감독 업무를 총괄하는 국가 기관인 광전총국이 중국 숏드라마 시장의 재정비를 위해 전면적으로 나섰다. 6월 1일부터 2개월간 숏드라마의 유해·저속
+                      콘텐츠와 저작권 침해 문제를 집중 정비하는 한편, 6월 24일에는 ‘숏드라마 발전 관리 방법’을 공개하고 의견 수렴에 나섰다. 이처럼 광전총국이 전반적인 제도 정비에 나선
+                      배경은 최근 숏드라마 인기와 함께 콘텐츠 품질 문제가 계속 불거지고 AI로 생성·제작된 콘텐츠가 기하급수적으로 늘어났기 때문이다.</p>
+                  </div>
 
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>2026년 5월에 개최된 ‘2026 중국 문화 강국 건설 포럼’에서 AI를 바탕으로 중국 콘텐츠 산업이 빠르게 통합되는 사례들이 소개되었다. 후난방송시스템(HBS)은
-											LLM·클라우드 기술로 AI 다큐멘터리와 AI 숏폼 드라마를 제작했으며, 현재 AI 장편 드라마를 제작하고 있다. 위웨원 그룹은 AI로 웹소설을 애니메이션으로 약 1,000편을
-											제작해 이 중 100편 이상이 1,000만 조회수를 넘겼고, 12편은 1억 조회수를 돌파했다고 소개했다. 텐센트 연구원은 AI가 창작자 저변 확대 및 제작비·기간 단축에
-											기여한다고 평가하기도 했다. AI가 현장에서 적극 활용되는 사례가 많아지면서 업계 관계자들은 AI 적용 관련 기술 표준·데이터 규제·저작권 규칙·콘텐츠 라벨링 등 국가
-											가이드라인 제정이 필요하다고 지적했다.</p>
-									</div>
-								</div>
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>2026년 5월에 개최된 ‘2026 중국 문화 강국 건설 포럼’에서 AI를 바탕으로 중국 콘텐츠 산업이 빠르게 통합되는 사례들이 소개되었다. 후난방송시스템(HBS)은
+                      LLM·클라우드 기술로 AI 다큐멘터리와 AI 숏폼 드라마를 제작했으며, 현재 AI 장편 드라마를 제작하고 있다. 위웨원 그룹은 AI로 웹소설을 애니메이션으로 약 1,000편을
+                      제작해 이 중 100편 이상이 1,000만 조회수를 넘겼고, 12편은 1억 조회수를 돌파했다고 소개했다. 텐센트 연구원은 AI가 창작자 저변 확대 및 제작비·기간 단축에
+                      기여한다고 평가하기도 했다. AI가 현장에서 적극 활용되는 사례가 많아지면서 업계 관계자들은 AI 적용 관련 기술 표준·데이터 규제·저작권 규칙·콘텐츠 라벨링 등 국가
+                      가이드라인 제정이 필요하다고 지적했다.</p>
+                  </div>
+                </div>
 
-								<div class="source-box">
-									<ul class="source-list">
-										<li>
-											<p>출처: 중국일보(中国日报)</p>
-											<span>원문 기사: </span>
-											<a href="https://cn.chinadaily.com.cn/a/202606/03/WS6a2025aca310942cc49afe9c.html" target="_blank"
-												rel="noopener noreferrer">“广电总局部署开展微短剧有害低俗内容和侵权盗版专项治理” (광전총국, 미단극의 유해·저속 내용 및 저작권 침해·복제물 전담 정비
-												사업 착수)</a>
-										</li>
-										<li>
-											<p>출처: 싱타오 데일리(星島日報)</p>
-											<span>원문 기사: </span>
-											<a href="https://www.stheadline.com/zh-hans/realtime-china/3586486/" target="_blank"
-												rel="noopener noreferrer">“微短剧︱国家广电局征求管理意见 播出单位不得使用诱导用户沉迷等算法模型” (미단극︱광전총국, 관리 방안 의견 수렴-‘방영 플랫폼,
-												사용자 과몰입 등을 부추기는 알고리즘 모델 사용 금지’)</a>
-										</li>
-										<li>
-											<p>출처: 신화통신</p>
-											<span>원문 기사: </span>
-											<a href="https://english.news.cn/20260525/4e3b51de69ef46628e51d3314ed1f8f1/c.html" target="_blank"
-												rel="noopener noreferrer">“AI drives changes in China's cultural industry” (AI가 중국 문화 산업의 변화를
-												이끌고 있다)</a>
-										</li>
-									</ul>
-								</div>
-							</article>
+                <div class="source-box">
+                  <ul class="source-list">
+                    <li>
+                      <p>출처: 중국일보(中国日报)</p>
+                      <span>원문 기사: </span>
+                      <a href="https://cn.chinadaily.com.cn/a/202606/03/WS6a2025aca310942cc49afe9c.html" target="_blank"
+                        rel="noopener noreferrer">“广电总局部署开展微短剧有害低俗内容和侵权盗版专项治理” (광전총국, 미단극의 유해·저속 내용 및 저작권 침해·복제물 전담 정비
+                        사업 착수)</a>
+                    </li>
+                    <li>
+                      <p>출처: 싱타오 데일리(星島日報)</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.stheadline.com/zh-hans/realtime-china/3586486/" target="_blank"
+                        rel="noopener noreferrer">“微短剧︱国家广电局征求管理意见 播出单位不得使用诱导用户沉迷等算法模型” (미단극︱광전총국, 관리 방안 의견 수렴-‘방영 플랫폼,
+                        사용자 과몰입 등을 부추기는 알고리즘 모델 사용 금지’)</a>
+                    </li>
+                    <li>
+                      <p>출처: 신화통신</p>
+                      <span>원문 기사: </span>
+                      <a href="https://english.news.cn/20260525/4e3b51de69ef46628e51d3314ed1f8f1/c.html" target="_blank"
+                        rel="noopener noreferrer">“AI drives changes in China's cultural industry” (AI가 중국 문화 산업의 변화를
+                        이끌고 있다)</a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
 
-							<!-- 일본 -->
-							<article class="issue-card">
-								<div class="issue-card-label-wrap">
-									<p class="issue-card-label">일본</p>
-								</div>
+              <!-- 일본 -->
+              <article class="issue-card">
+                <div class="issue-card-label-wrap">
+                  <p class="issue-card-label">일본</p>
+                </div>
 
-								<h3 class="issue-card-title">넷플릭스 배급, TBS-U-NEXT 제휴, 군마현 로케 유치… 일본 콘텐츠 산업의 행보</h3>
+                <h3 class="issue-card-title">넷플릭스 배급, TBS-U-NEXT 제휴, 군마현 로케 유치… 일본 콘텐츠 산업의 행보</h3>
 
-								<div class="bullet-list-stack paragraph">
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>넷플릭스가 NHK, 니혼TV와 잇달아 배급 계약을 체결하며 일본 지상파 콘텐츠 확충에 나섰다. 이에 따라 6월 22일부터 넷플릭스가 론칭된 세계 190여 개 국가 및 지역에
-											NHK의 대하드라마와 아침드라마가 순차적으로 배급되며, 니혼TV의 15년 장수 인기 예능 프로그램이 배급된다.</p>
-									</div>
+                <div class="bullet-list-stack paragraph">
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>넷플릭스가 NHK, 니혼TV와 잇달아 배급 계약을 체결하며 일본 지상파 콘텐츠 확충에 나섰다. 이에 따라 6월 22일부터 넷플릭스가 론칭된 세계 190여 개 국가 및 지역에
+                      NHK의 대하드라마와 아침드라마가 순차적으로 배급되며, 니혼TV의 15년 장수 인기 예능 프로그램이 배급된다.</p>
+                  </div>
 
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>방송사업자 TBS홀딩스가 스트리밍 사업자 U-NEXT 홀딩스와 자본업무제휴를 맺고 세계 시장을 겨냥한 오리지널 콘텐츠 제작·배급 합작회사 사업을 추진한다. 이를 위해 제작사
-											‘THE SEVEN’을 글로벌 전략 핵심으로 육성하고 글로벌 엔터 기업에 출자하는 등 적극적인 행보를 보이고 있다.</p>
-									</div>
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>방송사업자 TBS홀딩스가 스트리밍 사업자 U-NEXT 홀딩스와 자본업무제휴를 맺고 세계 시장을 겨냥한 오리지널 콘텐츠 제작·배급 합작회사 사업을 추진한다. 이를 위해 제작사
+                      ‘THE SEVEN’을 글로벌 전략 핵심으로 육성하고 글로벌 엔터 기업에 출자하는 등 적극적인 행보를 보이고 있다.</p>
+                  </div>
 
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>한편, 군마현이 로케이션 유치 성과로 화제다. 군마현은 지역경제 활성화를 위해 2024년 4월 시설 담당 부서 및 현 경찰본부 등으로 구성된 스페셜 팀을 설치했다. 최대
-											2,000만 엔(약 1억 8,200만 원)까지 촬영·제작비 2분의 1을 지원하는 보조금 제도를 운영 중이며, 군마현이 보유한 복합 컨벤션 센터인 ‘G 멧세 군마’에서 촬영 시
-											최대 2,200만 엔(약 2억 원)까지 지원한다.</p>
-									</div>
-								</div>
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>한편, 군마현이 로케이션 유치 성과로 화제다. 군마현은 지역경제 활성화를 위해 2024년 4월 시설 담당 부서 및 현 경찰본부 등으로 구성된 스페셜 팀을 설치했다. 최대
+                      2,000만 엔(약 1억 8,200만 원)까지 촬영·제작비 2분의 1을 지원하는 보조금 제도를 운영 중이며, 군마현이 보유한 복합 컨벤션 센터인 ‘G 멧세 군마’에서 촬영 시
+                      최대 2,200만 엔(약 2억 원)까지 지원한다.</p>
+                  </div>
+                </div>
 
-								<div class="source-box">
-									<ul class="source-list">
-										<li>
-											<p>출처: The Hollywood Reporter Japan</p>
-											<span>원문 기사: </span>
-											<a href="https://news.yahoo.co.jp/articles/e0c7cc4f3cbb960d3bf6908c1e1e494ccff3b831"
-												target="_blank"
-												rel="noopener noreferrer">“Netflix、NHKの大河ドラマ＆連続テレビ小説ほか配信へ！日テレ『月曜から夜ふかし』グローバル配信権も” (넷플릭스, NHK
-												대하드라마 &amp; 연속TV소설(아침드라마) 등 스트리밍 예정! 니혼TV 『월요일부터 밤새기』 글로벌 스트리밍 권리도 확보)</a>
-										</li>
-										<li>
-											<p>출처: 니혼게이자이(닛케이) 신문</p>
-											<span>원문 기사: </span>
-											<a href="https://www.nikkei.com/article/DGXZQOUC2690O0W6A620C2000000/" target="_blank"
-												rel="noopener noreferrer">“TBS, U-NEXT HDへの出資比率8%に上昇　動画配信を世界展開” (TBS, U-NEXT HD 지분율 8%로 확대… 동영상
-												스트리밍 세계 시장 공략)</a>
-										</li>
-										<li>
-											<p>출처: 니혼게이자이(닛케이) 신문</p>
-											<span>원문 기사: </span>
-											<a href="https://www.nikkei.com/article/DGXZQOCC231VQ0T20C26A6000000/" target="_blank"
-												rel="noopener noreferrer">“群馬県、映画やドラマのロケ支援注力　25年度撮影支援は過去最多” (군마현, 영화와 드라마 로케 지원 주력, 25년도 촬영 지원
-												역대 최다)</a>
-										</li>
-									</ul>
-								</div>
-							</article>
+                <div class="source-box">
+                  <ul class="source-list">
+                    <li>
+                      <p>출처: The Hollywood Reporter Japan</p>
+                      <span>원문 기사: </span>
+                      <a href="https://news.yahoo.co.jp/articles/e0c7cc4f3cbb960d3bf6908c1e1e494ccff3b831"
+                        target="_blank"
+                        rel="noopener noreferrer">“Netflix、NHKの大河ドラマ＆連続テレビ小説ほか配信へ！日テレ『月曜から夜ふかし』グローバル配信権も” (넷플릭스, NHK
+                        대하드라마 &amp; 연속TV소설(아침드라마) 등 스트리밍 예정! 니혼TV 『월요일부터 밤새기』 글로벌 스트리밍 권리도 확보)</a>
+                    </li>
+                    <li>
+                      <p>출처: 니혼게이자이(닛케이) 신문</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.nikkei.com/article/DGXZQOUC2690O0W6A620C2000000/" target="_blank"
+                        rel="noopener noreferrer">“TBS, U-NEXT HDへの出資比率8%に上昇　動画配信を世界展開” (TBS, U-NEXT HD 지분율 8%로 확대… 동영상
+                        스트리밍 세계 시장 공략)</a>
+                    </li>
+                    <li>
+                      <p>출처: 니혼게이자이(닛케이) 신문</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.nikkei.com/article/DGXZQOCC231VQ0T20C26A6000000/" target="_blank"
+                        rel="noopener noreferrer">“群馬県、映画やドラマのロケ支援注力　25年度撮影支援は過去最多” (군마현, 영화와 드라마 로케 지원 주력, 25년도 촬영 지원
+                        역대 최다)</a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
 
-							<!-- 인도 -->
-							<article class="issue-card">
-								<div class="issue-card-label-wrap">
-									<p class="issue-card-label">인도</p>
-								</div>
+              <!-- 인도 -->
+              <article class="issue-card">
+                <div class="issue-card-label-wrap">
+                  <p class="issue-card-label">인도</p>
+                </div>
 
-								<h3 class="issue-card-title">인도 콘텐츠 시장에 부는 숏드라마 열풍</h3>
+                <h3 class="issue-card-title">인도 콘텐츠 시장에 부는 숏드라마 열풍</h3>
 
-								<div class="bullet-list-stack paragraph">
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>디즈니-릴라이언스 합작사 지오스타(JioStar) 산하에 있는 지오핫스타(JioHotstar)의 숏드라마 서비스 ‘타드카(Tadka)’가 출시 두 달 만에 누적 사용자 1억
-											명을 돌파했다. ‘타드카(Tadka)’는 2026년 4월 3일에 출시한 무료 광고 기반(FAST) 세로형 숏드라마다. 에피소드당 30~60초, 힌디어·타밀어·텔루구어 등 다양한
-											언어로 로맨스·스릴러·코미디·스포츠 스토리를 제공하고 있다.</p>
-									</div>
+                <div class="bullet-list-stack paragraph">
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>디즈니-릴라이언스 합작사 지오스타(JioStar) 산하에 있는 지오핫스타(JioHotstar)의 숏드라마 서비스 ‘타드카(Tadka)’가 출시 두 달 만에 누적 사용자 1억
+                      명을 돌파했다. ‘타드카(Tadka)’는 2026년 4월 3일에 출시한 무료 광고 기반(FAST) 세로형 숏드라마다. 에피소드당 30~60초, 힌디어·타밀어·텔루구어 등 다양한
+                      언어로 로맨스·스릴러·코미디·스포츠 스토리를 제공하고 있다.</p>
+                  </div>
 
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>그 외에도 포켓 FM(Pocket FM), 쿠쿠TV(Kuku TV), 터리블리 타이니 테일즈(Terribly Tiny Tales, TTT) 등의 인도 토종 숏드라마 플랫폼이
-											함께 경쟁하고 있다. 인도의 유명 제작사인 야시 라지 필름스(YRF)이 2026년 4월 D2C 숏드라마 플랫폼에 약 1,800만 달러 투자를 발표하고, 엑셀 엔터테인먼트에서는
-											전담 숏드라마 부서를 신설하는 등 기성 영화제작사도 진입하고 있다.</p>
-									</div>
-								</div>
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>그 외에도 포켓 FM(Pocket FM), 쿠쿠TV(Kuku TV), 터리블리 타이니 테일즈(Terribly Tiny Tales, TTT) 등의 인도 토종 숏드라마 플랫폼이
+                      함께 경쟁하고 있다. 인도의 유명 제작사인 야시 라지 필름스(YRF)이 2026년 4월 D2C 숏드라마 플랫폼에 약 1,800만 달러 투자를 발표하고, 엑셀 엔터테인먼트에서는
+                      전담 숏드라마 부서를 신설하는 등 기성 영화제작사도 진입하고 있다.</p>
+                  </div>
+                </div>
 
-								<div class="source-box">
-									<ul class="source-list">
-										<li>
-											<p>출처: The Hollywood Reporter</p>
-											<span>원문 기사: </span>
-											<a href="https://www.hollywoodreporter.com/business/business-news/jiohotstar-tadka-100-million-users-india-microdrama-market-1236619270/"
-												target="_blank" rel="noopener noreferrer">“India’s Microdrama Market Explodes as Disney-Backed
-												Service Hits 100 Million Users” (디즈니 지원 서비스 사용자 1억 명 돌파… 인도 미크로드라마 시장 폭발적 성장)</a>
-										</li>
-										<li>
-											<p>출처: The Print</p>
-											<span>원문 기사: </span>
-											<a href="https://theprint.in/feature/indias-microdrama-scene-just-got-serious-jio-hotstar-yrf-excel-ent-investing-big/2964765/"
-												target="_blank" rel="noopener noreferrer">“India’s microdrama scene just got serious— Jio
-												Hotstar, YRF, Excel Ent investing big” (인도의 마이크로드라마 시장이 본격적으로 성장세. Jio Hotstar, YRF, Excel Ent
-												대규모 투자 단행)</a>
-										</li>
-										<li>
-											<p>출처: ET BRAND EQUITY</p>
-											<span>원문 기사: </span>
-											<a href="https://brandequity.economictimes.indiatimes.com/news/media/yrf-enters-vertical-entertainment-with-investment-in-rusk-media/132064020"
-												target="_blank" rel="noopener noreferrer">“YRF enters vertical entertainment with investment in
-												Rusk Media” (YRF, Rusk Media 투자로 수직형 엔터테인먼트 시장 진출)</a>
-										</li>
-									</ul>
-								</div>
-							</article>
+                <div class="source-box">
+                  <ul class="source-list">
+                    <li>
+                      <p>출처: The Hollywood Reporter</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.hollywoodreporter.com/business/business-news/jiohotstar-tadka-100-million-users-india-microdrama-market-1236619270/"
+                        target="_blank" rel="noopener noreferrer">“India’s Microdrama Market Explodes as Disney-Backed
+                        Service Hits 100 Million Users” (디즈니 지원 서비스 사용자 1억 명 돌파… 인도 미크로드라마 시장 폭발적 성장)</a>
+                    </li>
+                    <li>
+                      <p>출처: The Print</p>
+                      <span>원문 기사: </span>
+                      <a href="https://theprint.in/feature/indias-microdrama-scene-just-got-serious-jio-hotstar-yrf-excel-ent-investing-big/2964765/"
+                        target="_blank" rel="noopener noreferrer">“India’s microdrama scene just got serious— Jio
+                        Hotstar, YRF, Excel Ent investing big” (인도의 마이크로드라마 시장이 본격적으로 성장세. Jio Hotstar, YRF, Excel Ent
+                        대규모 투자 단행)</a>
+                    </li>
+                    <li>
+                      <p>출처: ET BRAND EQUITY</p>
+                      <span>원문 기사: </span>
+                      <a href="https://brandequity.economictimes.indiatimes.com/news/media/yrf-enters-vertical-entertainment-with-investment-in-rusk-media/132064020"
+                        target="_blank" rel="noopener noreferrer">“YRF enters vertical entertainment with investment in
+                        Rusk Media” (YRF, Rusk Media 투자로 수직형 엔터테인먼트 시장 진출)</a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
 
-							<!-- 태국 -->
-							<article class="issue-card">
-								<div class="issue-card-label-wrap">
-									<p class="issue-card-label">태국</p>
-								</div>
+              <!-- 태국 -->
+              <article class="issue-card">
+                <div class="issue-card-label-wrap">
+                  <p class="issue-card-label">태국</p>
+                </div>
 
-								<h3 class="issue-card-title">태국 정부의 미디어 생태계 강화 전략: 영상 제작 인센티브 운영과 국영 스트리밍 플랫폼 구축</h3>
+                <h3 class="issue-card-title">태국 정부의 미디어 생태계 강화 전략: 영상 제작 인센티브 운영과 국영 스트리밍 플랫폼 구축</h3>
 
-								<div class="bullet-list-stack paragraph">
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>태국은 현재 영상 제작 촬영 인센티브 제도를 운영 중이나, 지난해 승인되었던 두 개의 글로벌 대형 스튜디오 작품에 대한 환급금 지급이 지연되면서 국가적으로 논란이 되었다.
-											태국의 현금 환급 인센티브 제도는 상한선 없이 제작비 지출액의 최대 30%까지 환급하며, 태국인 주요 스태프 고용, 소프트파워 홍보, 소도시(2등 도시) 촬영 등 조건 충족 시
-											추가 혜택이 주어진다. 해당 스튜디오들은 지급 상황을 지속적으로 문의하고 있으며, 태국 정부는 최우선적으로 처리하겠다고 밝혔다.</p>
-									</div>
+                <div class="bullet-list-stack paragraph">
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>태국은 현재 영상 제작 촬영 인센티브 제도를 운영 중이나, 지난해 승인되었던 두 개의 글로벌 대형 스튜디오 작품에 대한 환급금 지급이 지연되면서 국가적으로 논란이 되었다.
+                      태국의 현금 환급 인센티브 제도는 상한선 없이 제작비 지출액의 최대 30%까지 환급하며, 태국인 주요 스태프 고용, 소프트파워 홍보, 소도시(2등 도시) 촬영 등 조건 충족 시
+                      추가 혜택이 주어진다. 해당 스튜디오들은 지급 상황을 지속적으로 문의하고 있으며, 태국 정부는 최우선적으로 처리하겠다고 밝혔다.</p>
+                  </div>
 
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>태국 국가방송통신위원회(NBTC)는 국민들의 보편적 시청권을 보장하고, 뉴스·재난 경보 등 공익 콘텐츠에 쉽게 접근할 수 있도록 디지털 공공 인프라로서 국영 스트리밍 플랫폼
-											구축을 추진하고 있다. 이는 2029년 지상파 면허 만료에 대비하고, 글로벌 빅테크 및 일부 통신사에 대한 의존도를 낮추기 위한 전략적 시도다. 순수 정부 주도보다는 방송사,
-											통신사 등 산업 파트너십을 통한 지속 가능한 생태계 구축을 목표로 하고 있다. 이 플랫폼이 완성되면 소비자는 단일 앱으로 편리하게 지상파 채널을 탐색할 수 있고, 방송사들은
-											인프라 중복 투자를 줄이면서 시청자에게 직접 도달할 수 있는 경로를 확보할 수 있다.</p>
-									</div>
-								</div>
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>태국 국가방송통신위원회(NBTC)는 국민들의 보편적 시청권을 보장하고, 뉴스·재난 경보 등 공익 콘텐츠에 쉽게 접근할 수 있도록 디지털 공공 인프라로서 국영 스트리밍 플랫폼
+                      구축을 추진하고 있다. 이는 2029년 지상파 면허 만료에 대비하고, 글로벌 빅테크 및 일부 통신사에 대한 의존도를 낮추기 위한 전략적 시도다. 순수 정부 주도보다는 방송사,
+                      통신사 등 산업 파트너십을 통한 지속 가능한 생태계 구축을 목표로 하고 있다. 이 플랫폼이 완성되면 소비자는 단일 앱으로 편리하게 지상파 채널을 탐색할 수 있고, 방송사들은
+                      인프라 중복 투자를 줄이면서 시청자에게 직접 도달할 수 있는 경로를 확보할 수 있다.</p>
+                  </div>
+                </div>
 
-								<div class="source-box">
-									<ul class="source-list">
-										<li>
-											<p>출처: Bangkok Post</p>
-											<span>원문 기사: </span>
-											<a href="https://www.bangkokpost.com/business/general/3276687/cabinet-urged-to-deliver-b770m-for-two-tv-series"
-												target="_blank" rel="noopener noreferrer">“Cabinet urged to deliver B770m for two TV series”
-												(내각, 두 편의 TV 시리즈 제작을 위해 7억 7천만 바트 지원 촉구받아)</a>
-										</li>
-										<li>
-											<p>출처: Bangkok Post</p>
-											<span>원문 기사: </span>
-											<a href="https://www.bangkokpost.com/business/general/3279337/commission-backs-national-streaming-plan"
-												target="_blank" rel="noopener noreferrer">“Commission backs national streaming plan” (위원회, 국가
-												스트리밍 계획 지지 발표)</a>
-										</li>
-									</ul>
-								</div>
-							</article>
+                <div class="source-box">
+                  <ul class="source-list">
+                    <li>
+                      <p>출처: Bangkok Post</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.bangkokpost.com/business/general/3276687/cabinet-urged-to-deliver-b770m-for-two-tv-series"
+                        target="_blank" rel="noopener noreferrer">“Cabinet urged to deliver B770m for two TV series”
+                        (내각, 두 편의 TV 시리즈 제작을 위해 7억 7천만 바트 지원 촉구받아)</a>
+                    </li>
+                    <li>
+                      <p>출처: Bangkok Post</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.bangkokpost.com/business/general/3279337/commission-backs-national-streaming-plan"
+                        target="_blank" rel="noopener noreferrer">“Commission backs national streaming plan” (위원회, 국가
+                        스트리밍 계획 지지 발표)</a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
 
-							<!-- 튀르키예 -->
-							<article class="issue-card">
-								<div class="issue-card-label-wrap">
-									<p class="issue-card-label">튀르키예</p>
-								</div>
+              <!-- 튀르키예 -->
+              <article class="issue-card">
+                <div class="issue-card-label-wrap">
+                  <p class="issue-card-label">튀르키예</p>
+                </div>
 
-								<h3 class="issue-card-title">글로벌 경쟁력 강화를 위한 영상물 지원 제도 개편 단행</h3>
+                <h3 class="issue-card-title">글로벌 경쟁력 강화를 위한 영상물 지원 제도 개편 단행</h3>
 
-								<div class="bullet-list-stack paragraph">
-									<div class="bullet-row">
-										<p>⦁</p>
-										<p>튀르키예 문화관광부는 ‘영화 산업 지원에 관한 시행령 개정’을 통해 튀르키예에서 지출하는 해외 영화 제작물에 대해 최대 30%까지 지원금을 제공하며, 해외에서 방영되는 자국
-											드라마에 대한 지원 시스템도 새롭게 개편했다. 해외 제작물 지원은 전체 또는 일부가 튀르키예에서 촬영되는 해외 장편 영화, 다큐멘터리 및 드라마 프로젝트 중 부처가 적격성을
-											인정한 현지 지출 비용의 최대 30%까지 지급된다. 지원금은 현지 공동 제작자 또는 튀르키예에서 서비스를 제공하는 현지 제작사로 전달된다. 또한 해외에서 방영되어 튀르키예
-											홍보에 기여하는 자국 드라마의 경우 ‘지원을 신청하는 각 회차의 첫 방송이 신청일 기준 최근 3년 이내에 튀르키예에서 방영되었어야 한다’는 조건이 신설되었으며, 기존에 존재했던
-											‘최소 1개 시즌 방영’ 조건은 폐지되었다.</p>
-									</div>
-								</div>
+                <div class="bullet-list-stack paragraph">
+                  <div class="bullet-row">
+                    <p>⦁</p>
+                    <p>튀르키예 문화관광부는 ‘영화 산업 지원에 관한 시행령 개정’을 통해 튀르키예에서 지출하는 해외 영화 제작물에 대해 최대 30%까지 지원금을 제공하며, 해외에서 방영되는 자국
+                      드라마에 대한 지원 시스템도 새롭게 개편했다. 해외 제작물 지원은 전체 또는 일부가 튀르키예에서 촬영되는 해외 장편 영화, 다큐멘터리 및 드라마 프로젝트 중 부처가 적격성을
+                      인정한 현지 지출 비용의 최대 30%까지 지급된다. 지원금은 현지 공동 제작자 또는 튀르키예에서 서비스를 제공하는 현지 제작사로 전달된다. 또한 해외에서 방영되어 튀르키예
+                      홍보에 기여하는 자국 드라마의 경우 ‘지원을 신청하는 각 회차의 첫 방송이 신청일 기준 최근 3년 이내에 튀르키예에서 방영되었어야 한다’는 조건이 신설되었으며, 기존에 존재했던
+                      ‘최소 1개 시즌 방영’ 조건은 폐지되었다.</p>
+                  </div>
+                </div>
 
-								<div class="source-box">
-									<ul class="source-list">
-										<li>
-											<p>출처: son tv</p>
-											<span>원문 기사: </span>
-											<a href="https://www.son.tv/turkiye-film-ussu-oluyor-yabanci-yapimlara-yuzde-30-devlet-destegi-geldi/"
-												target="_blank" rel="noopener noreferrer">“Türkiye film üssü oluyor: Yabancı yapımlara yüzde 30
-												devlet desteği geldi!” (튀르키예, 영화 제작의 거점으로 거듭나다: 해외 제작 작품에 30% 국가 지원 제공!)</a>
-										</li>
-									</ul>
-								</div>
-							</article>
+                <div class="source-box">
+                  <ul class="source-list">
+                    <li>
+                      <p>출처: son tv</p>
+                      <span>원문 기사: </span>
+                      <a href="https://www.son.tv/turkiye-film-ussu-oluyor-yabanci-yapimlara-yuzde-30-devlet-destegi-geldi/"
+                        target="_blank" rel="noopener noreferrer">“Türkiye film üssü oluyor: Yabancı yapımlara yüzde 30
+                        devlet desteği geldi!” (튀르키예, 영화 제작의 거점으로 거듭나다: 해외 제작 작품에 30% 국가 지원 제공!)</a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
 
-						</div>
-					</div>
-				</section>
+            </div>
+          </div>
+        </section>
 
-				<!-- 시사점 -->
-				<section class="section-block">
-					<div class="subtitle-wrap">
-						<div class="subtitle-bar-desktop"></div>
+        <!-- 시사점 -->
+        <section class="section-block">
+          <div class="subtitle-wrap">
+            <div class="subtitle-bar-desktop"></div>
 
-						<div class="subtitle-inner">
-							<div class="subtitle-bar-mobile"></div>
-							<div class="subtitle-text">시사점</div>
-						</div>
-					</div>
+            <div class="subtitle-inner">
+              <div class="subtitle-bar-mobile"></div>
+              <div class="subtitle-text">시사점</div>
+            </div>
+          </div>
 
-					<div class="section-body">
-						<div class="insight-list">
+          <div class="section-body">
+            <div class="insight-list">
 
-							<!-- Insight 01 -->
-							<div class="insight-card">
-								<strong class="insight-number">01</strong>
-								<h3 class="insight-title">숏드라마 시장의 글로벌 확산</h3>
-								<p class="paragraph">중국(광전총국의 제도 정비), 인도(지오핫스타·MX 파타파트 등 폭발적 성장) 사례에서 보듯, 숏드라마는 이제 실험적 포맷을 넘어 글로벌 전역에서
-									주요 비즈니스 모델로 자리 잡고 있다. 시장의 후발 주자로서 국내 사업자들이 차세대 영상산업의 먹거리로 확보할 수 있도록 다각적인 지원이 필요한 시점이다. 특히 중국·인도처럼 AI를
-									활용한 저비용·고효율 제작 파이프라인 구축이 경쟁력의 핵심이 될 수 있다.</p>
-							</div>
+              <!-- Insight 01 -->
+              <div class="insight-card">
+                <strong class="insight-number">01</strong>
+                <h3 class="insight-title">숏드라마 시장의 글로벌 확산</h3>
+                <p class="paragraph">중국(광전총국의 제도 정비), 인도(지오핫스타·MX 파타파트 등 폭발적 성장) 사례에서 보듯, 숏드라마는 이제 실험적 포맷을 넘어 글로벌 전역에서
+                  주요 비즈니스 모델로 자리 잡고 있다. 시장의 후발 주자로서 국내 사업자들이 차세대 영상산업의 먹거리로 확보할 수 있도록 다각적인 지원이 필요한 시점이다. 특히 중국·인도처럼 AI를
+                  활용한 저비용·고효율 제작 파이프라인 구축이 경쟁력의 핵심이 될 수 있다.</p>
+              </div>
 
-							<!-- Insight 02 -->
-							<div class="insight-card">
-								<strong class="insight-number">02</strong>
-								<h3 class="insight-title">AI 기술의 도입 확산과 제작 현장의 실무적 가이드라인 구축 필요</h3>
-								<p class="paragraph">후난방송시스템, 위웨원 그룹 등 중국 사례처럼 AI가 다큐멘터리·애니메이션·장편 드라마 제작에까지 긴밀하게 도입되고 있다. AI는 이제 단순 보조
-									도구를 넘어 다큐멘터리·웹툰·애니메이션·숏폼 제작의 핵심 인프라로 자리 잡아가고 있다고 할 수 있다. 국내에서도 제작 전반의 가치사슬에서 AI를 활용하고 있다. 정부와 사업자가 AI
-									활용에 대한 거버넌스와 가이드를 구축하기 위해 노력하고 있으나, 향후 AI 활용의 불확실성과 리스크를 최소화할 수 있도록 표준화된 가이드라인 마련이 필요하다.</p>
-							</div>
+              <!-- Insight 02 -->
+              <div class="insight-card">
+                <strong class="insight-number">02</strong>
+                <h3 class="insight-title">AI 기술의 도입 확산과 제작 현장의 실무적 가이드라인 구축 필요</h3>
+                <p class="paragraph">후난방송시스템, 위웨원 그룹 등 중국 사례처럼 AI가 다큐멘터리·애니메이션·장편 드라마 제작에까지 긴밀하게 도입되고 있다. AI는 이제 단순 보조
+                  도구를 넘어 다큐멘터리·웹툰·애니메이션·숏폼 제작의 핵심 인프라로 자리 잡아가고 있다고 할 수 있다. 국내에서도 제작 전반의 가치사슬에서 AI를 활용하고 있다. 정부와 사업자가 AI
+                  활용에 대한 거버넌스와 가이드를 구축하기 위해 노력하고 있으나, 향후 AI 활용의 불확실성과 리스크를 최소화할 수 있도록 표준화된 가이드라인 마련이 필요하다.</p>
+              </div>
 
-							<!-- Insight 03 -->
-							<div class="insight-card">
-								<strong class="insight-number">03</strong>
-								<h3 class="insight-title">방송사-스트리밍 자본 제휴를 통한 글로벌화</h3>
-								<p class="paragraph">일본 TBS홀딩스와 U-NEXT 홀딩스의 지분 확대형 자본업무제휴, 넷플릭스의 NHK·니혼TV 배급 계약 사례는 전통 방송사가 글로벌 OTT·스트리밍
-									사업자와 손잡고 콘텐츠 라이브러리를 해외로 확장하는 전략을 보여준다. 국내 역시 방송사들이 자체 라이브러리(예능·드라마 아카이브)의 글로벌 유통을 위해 글로벌 OTT 사업자와의 배급
-									계약을 확대하고 있다. 그러나 다른 한편에서는 글로벌 플랫폼에 대한 높은 의존도와 종속의 우려 목소리도 높은 만큼 자체 제작 및 유통 역량을 강화할 수 있는 대안적 모델에 대한 고민이
-									필요할 것이다.</p>
-							</div>
+              <!-- Insight 03 -->
+              <div class="insight-card">
+                <strong class="insight-number">03</strong>
+                <h3 class="insight-title">방송사-스트리밍 자본 제휴를 통한 글로벌화</h3>
+                <p class="paragraph">일본 TBS홀딩스와 U-NEXT 홀딩스의 지분 확대형 자본업무제휴, 넷플릭스의 NHK·니혼TV 배급 계약 사례는 전통 방송사가 글로벌 OTT·스트리밍
+                  사업자와 손잡고 콘텐츠 라이브러리를 해외로 확장하는 전략을 보여준다. 국내 역시 방송사들이 자체 라이브러리(예능·드라마 아카이브)의 글로벌 유통을 위해 글로벌 OTT 사업자와의 배급
+                  계약을 확대하고 있다. 그러나 다른 한편에서는 글로벌 플랫폼에 대한 높은 의존도와 종속의 우려 목소리도 높은 만큼 자체 제작 및 유통 역량을 강화할 수 있는 대안적 모델에 대한 고민이
+                  필요할 것이다.</p>
+              </div>
 
-							<!-- Insight 04 -->
-							<div class="insight-card">
-								<strong class="insight-number">04</strong>
-								<h3 class="insight-title">로케이션 유치 경쟁, 지역 균형발전과 연계한 인센티브 설계가 관건</h3>
-								<p class="paragraph">전 세계적으로 제작 편수가 감소하고 있다고 하지만, 여전히 로케이션 유치는 관광과 연계한 훌륭한 지역경제 활성화의 생명줄이라고 할 수 있다. 태국의
-									상한 없는 최대 30% 현금 환급, 튀르키예의 최대 30% 해외 제작 지원, 군마현의 원스톱 지원 등은 각국이 촬영 유치를 지역경제·소프트파워 전략으로 삼고 있음을 보여주는 사례다.
-									국내는 현재 지자체 영상위원회가 주도하여 로케이션 인센티브를 지원하고 있다. 향후 지자체와 중앙정부 간 협력을 다지고 K-로케이션 역량을 강화할 수 있도록 치밀한 제도적 설계가
-									필요하다.</p>
-							</div>
+              <!-- Insight 04 -->
+              <div class="insight-card">
+                <strong class="insight-number">04</strong>
+                <h3 class="insight-title">로케이션 유치 경쟁, 지역 균형발전과 연계한 인센티브 설계가 관건</h3>
+                <p class="paragraph">전 세계적으로 제작 편수가 감소하고 있다고 하지만, 여전히 로케이션 유치는 관광과 연계한 훌륭한 지역경제 활성화의 생명줄이라고 할 수 있다. 태국의
+                  상한 없는 최대 30% 현금 환급, 튀르키예의 최대 30% 해외 제작 지원, 군마현의 원스톱 지원 등은 각국이 촬영 유치를 지역경제·소프트파워 전략으로 삼고 있음을 보여주는 사례다.
+                  국내는 현재 지자체 영상위원회가 주도하여 로케이션 인센티브를 지원하고 있다. 향후 지자체와 중앙정부 간 협력을 다지고 K-로케이션 역량을 강화할 수 있도록 치밀한 제도적 설계가
+                  필요하다.</p>
+              </div>
 
-							<!-- Insight 05 -->
-							<div class="insight-card">
-								<strong class="insight-number">05</strong>
-								<h3 class="insight-title">공공 스트리밍 인프라 구축</h3>
-								<p class="paragraph">태국 NBTC가 국영 스트리밍 플랫폼을 추진하는 사례는 글로벌 플랫폼에 대한 유통 의존도를 낮추고 보편적 시청권을 지키려는 전략적인 시도라고 할 수
-									있다. 국내 역시 지상파의 시청률 하락과 OTT 잠식이라는 공통 고민을 가지고 있는 만큼, 국내 방송 미디어 생태계의 주권과 공익성을 유지하기 위한 대안 마련이 절실히 요구된다.
-								</p>
-							</div>
+              <!-- Insight 05 -->
+              <div class="insight-card">
+                <strong class="insight-number">05</strong>
+                <h3 class="insight-title">공공 스트리밍 인프라 구축</h3>
+                <p class="paragraph">태국 NBTC가 국영 스트리밍 플랫폼을 추진하는 사례는 글로벌 플랫폼에 대한 유통 의존도를 낮추고 보편적 시청권을 지키려는 전략적인 시도라고 할 수
+                  있다. 국내 역시 지상파의 시청률 하락과 OTT 잠식이라는 공통 고민을 가지고 있는 만큼, 국내 방송 미디어 생태계의 주권과 공익성을 유지하기 위한 대안 마련이 절실히 요구된다.
+                </p>
+              </div>
 
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
 
-	<!-- Footer -->
-	<footer class="footer">
-		<div class="footer-container">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
 
-			<!-- 상단: 로고와 설명 -->
-			<div class="footer-top-wrap">
-				<div class="footer-top">
+      <!-- 상단: 로고와 설명 -->
+      <div class="footer-top-wrap">
+        <div class="footer-top">
 
-					<div class="footer-logo-wrap">
-						<img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
+          <div class="footer-logo-wrap">
+            <img src="./img/assets/kocca-logo-white.png" alt="한국콘텐츠진흥원 로고" class="footer-logo" />
 
-						<p class="footer-description">
-							&lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
-							<br class="footer-hidden" />
-							본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
-						</p>
-					</div>
+            <p class="footer-description">
+              &lt;방송영상·OTT 트렌드&gt;에 실린 글과 사진은 한국콘텐츠진흥원의 허가 없이 사용할 수 없으며,
+              <br class="footer-hidden" />
+              본지의 내용은 필자 개인의 의견으로 한국콘텐츠진흥원의 공식 견해가 아닙니다.
+            </p>
+          </div>
 
-					<!-- 발행 정보 -->
-					<div class="footer-info">
-						<div class="footer-info-group">
-							<div>
-								<p>발행인</p>
-								<p>김윤지(한국콘텐츠진흥원 원장)</p>
-							</div>
-							<div>
-								<p>발행일</p>
-								<p>2026년 7월 30일</p>
-							</div>
-							<div>
-								<p>발행처</p>
-								<div style="display: flex; gap:4px; flex-direction: column;">
+          <!-- 발행 정보 -->
+          <div class="footer-info">
+            <div class="footer-info-group">
+              <div>
+                <p>발행인</p>
+                <p>김윤지(한국콘텐츠진흥원 원장)</p>
+              </div>
+              <div>
+                <p>발행일</p>
+                <p>2026년 9월 30일</p>
+              </div>
+              <div>
+                <p>발행처</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
                   <p>한국콘텐츠진흥원</p>
                   <p>전라남도 나주시 교육길 35</p>
                   <p>T. 1566-1114</p>
                   <p>https://www.kocca.kr</p>
                 </div>
-							</div>
-						</div>
+              </div>
+            </div>
 
-						<div class="footer-info-group">
-							<div>
-								<p>기획·편집</p>
-								<div style="display: flex; gap:4px; flex-direction: column;">
-									<p>한국콘텐츠진흥원 정책연구본부 산업정책팀</p>
-									<p>(주)컬쳐미디어랩</p>
-								</div>
-							</div>
+            <div class="footer-info-group">
+              <div>
+                <p>기획·편집</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>한국콘텐츠진흥원 정책연구본부 산업정책팀</p>
+                  <p>(주)컬쳐미디어랩</p>
+                </div>
+              </div>
 
-							<div>
-								<p>기획위원</p>
-								<div style="display: flex; gap:4px; flex-direction: column;">
-									<p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
-									<p>장민지(경남대학교 미디어영상학과 조교수)</p>
-									<p>이영주(서울과학기술대학교 IT정책전문대학원 융합미디어콘텐츠정책전공 교수)</p>
-								</div>
-							</div>
+              <div>
+                <p>기획위원</p>
+                <div style="display: flex; gap:4px; flex-direction: column;">
+                  <p>이성민(한국방송통신대학교 미디어영상학과 부교수)</p>
+                  <p>장민지(경남대학교 미디어영상학과 조교수)</p>
+                  <p>지인해(신한투자증권 연구위원)</p>
+                </div>
+              </div>
 
-							<div>
-								<p>ISSN</p>
-								<div>
-									<p>3091-6771(online)</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+              <div>
+                <p>ISSN</p>
+                <div>
+                  <p>3091-6771(online)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="footer-buttons">
-					<a href="./download/2026_방송영상&OTT트렌드_Vol2_PDF_최종본.pdf" class="footer-button-outline"
-						download="2026_방송영상&OTT트렌드_Vol2_PDF">2026 Vol.3 (9월호) PDF 다운받기</a>
-					<a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
-						class="footer-button-filled">구독 신청하기</a>
-				</div>
-			</div>
+        <div class="footer-buttons">
+          <a href="./download/2026_방송영상&OTT트렌드_Vol3_PDF_최종본.pdf" class="footer-button-outline"
+            download="2026_방송영상&OTT트렌드_Vol3_PDF">2026 Vol.3 (9월호) PDF 다운받기</a>
+          <a href="https://www.kocca.kr/kocca/common/Mailling.do?menuNo=204918" target="_blank"
+            class="footer-button-filled">구독 신청하기</a>
+        </div>
+      </div>
 
 
-			<div class="footer-bottom">
-				<p>© 2026 Korea Creative Content Agency. All rights reserved.</p>
-				<img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
-			</div>
-		</div>
-	</footer>
+      <div class="footer-bottom">
+        <p>© 2026 Korea Creative Content Agency. All rights reserved.</p>
+        <img src="./img/assets/new_img_opentype04.png" alt="공공누리 제4유형 : 출처표시 + 상업적 이용금지 + 변경금지" />
+      </div>
+    </div>
+  </footer>
 
-	<!-- 상/하단 이동 버튼 -->
-	<div class="page-anchor-buttons">
-		<button type="button" class="page-anchor-btn page-top-btn" onclick="scrollToTop()" aria-label="상단으로 이동">
-			<img src="./img/assets/TopArrow.png" alt="" />
-		</button>
+  <!-- 상/하단 이동 버튼 -->
+  <div class="page-anchor-buttons">
+    <button type="button" class="page-anchor-btn page-top-btn" onclick="scrollToTop()" aria-label="상단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
 
-		<button type="button" class="page-anchor-btn page-bottom-btn" onclick="scrollToBottom()" aria-label="하단으로 이동">
-			<img src="./img/assets/TopArrow.png" alt="" />
-		</button>
-	</div>
+    <button type="button" class="page-anchor-btn page-bottom-btn" onclick="scrollToBottom()" aria-label="하단으로 이동">
+      <img src="./img/assets/TopArrow.png" alt="" />
+    </button>
+  </div>
 
-	<!-- 하단 플로팅 바 -->
-	<nav class="article-floating-nav" aria-label="게시글 이동">
-		<div class="article-floating-nav-inner">
-			<a href="./global_3.html" class="floating-nav-btn prev">
-				<img src="./img/assets/arrow.png" alt="" width="24" height="24">
-				<span>유럽</span>
-			</a>
+  <!-- 하단 플로팅 바 -->
+  <nav class="article-floating-nav" aria-label="게시글 이동">
+    <div class="article-floating-nav-inner">
+      <a href="./global_3.html" class="floating-nav-btn prev">
+        <img src="./img/assets/arrow.png" alt="" width="24" height="24">
+        <span>유럽</span>
+      </a>
 
-			<div class="floating-issue-info">
-				<span class="issue-label">2026 Vol.3 (9월호)</span>
-			</div>
+      <div class="floating-issue-info">
+        <span class="issue-label">2026 Vol.3 (9월호)</span>
+      </div>
 
-			<a href="./global_5.html" class="floating-nav-btn next">
-				<span>중동 ∙ 아프리카</span>
-				<img class="rotate" src="./img/assets/arrow.png" alt="" width="24" height="24">
-			</a>
-		</div>
-	</nav>
+      <a href="./global_5.html" class="floating-nav-btn next">
+        <span>중동 ∙ 아프리카</span>
+        <img class="rotate" src="./img/assets/arrow.png" alt="" width="24" height="24">
+      </a>
+    </div>
+  </nav>
 
-	<script src="./js/utils.js"></script>
-	<script src="./js/menu.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>
