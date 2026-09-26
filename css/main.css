@@ -741,7 +741,7 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
   margin: 0 0 40px;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--gray-300);
+  color: var(--gray-100);
 }
 
 .survey-link {
