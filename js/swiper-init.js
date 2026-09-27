@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "스포트라이트",
       theme: "효율화의 시대, 제작 현장의 새로운 도전들",
-      item: "커지는 숏드라마 시장, 한국의 자리는 어디인가",
+      item: "다양한 시도로 글로벌 시장의 문을 두드린다,<br> &lt;WOWPOINT&gt; 양유민 대표",
       img: "./img/manuscript1/banner.png",
       imgMobile: "./img/manuscript1/banner-m.png",
       bgPosition: "center center",
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "트렌드 하이라이트",
       theme: "",
-      item: "작품 뒤의 작품<br>: OTT의 새로운 상품, 비하인드 다큐멘터리",
+      item: "작품 뒤의 작품:<br> OTT의 새로운 상품, 비하인드 다큐멘터리",
       img: "./img/manuscript7/banner.png",
       imgMobile: "./img/manuscript7/banner-m.png",
       bgPosition: "right center",
@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       sectionName: "피플 인사이트",
-      theme: "",
-      item: "셀럽 IP와 영상콘텐츠 생태계의 확장<br>: 스튜디오 에피소드 이정호 PD 인터뷰",
+      theme: "기술 인프라가 콘텐츠와 만날 때",
+      item: "‘AI 혁신 선도 프로젝트’의 성과와 과제:<br> CJ 4DPLEX 방준식 대표 인터뷰",
       img: "./img/manuscript10/banner.png",
       imgMobile: "./img/manuscript10/banner-m.png",
       bgPosition: "right center",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "데이터 포인트",
       theme: "",
-      item: "[2026년 3분기] 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향",
+      item: "[2026년 3분기]<br> 데이터로 읽는 글로벌 OTT 콘텐츠 소비 취향",
       img: "./img/manuscript11/banner.png",
       imgMobile: "./img/manuscript11/banner-m.png",
       bgPosition: "right center",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "글로벌 마켓 리포트",
       theme: "",
-      item: "북미, 중남미, 유럽, 아시아, 중동 ∙ 아프리카, 대양주<br>주요 이슈 리포트",
+      item: "북미, 중남미, 유럽, 아시아, 중동 ∙ 아프리카, 대양주<br class=\"pc-br\"> 주요 이슈 리포트",
       img: "./img/global/banner.png",
       imgMobile: "./img/global/banner.png",
       bgPosition: "right center",
